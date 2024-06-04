@@ -1,8 +1,15 @@
 ---
 import Navigation from "./Navigation.astro";
+import GradientAnchor from "./UI/GradientAnchor.astro";
 ---
 
-<header class="w-full min-h-48 bg-primary-800 flex justify-center items-start relative">
-    <img src="/logo.png" alt="Logo Connectto" class="max-h-36">
+<header class="w-full min-h-48 px-10 pb-10 bg-tertiary-950 flex justify-between items-center relative">
+    <a href="/">
+        <img src="/logo.png" alt="Logo Connectto" class="max-h-36">
+    </a>
+    <div class="space-x-3">
+        <GradientAnchor text="Acceder" href="/"/>
+        <GradientAnchor text="Pago online" href="/"/>
+    </div>
     <Navigation />
 </header>

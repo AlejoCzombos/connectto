@@ -1,0 +1,19 @@
+---
+import HeroAnchor from "./UI/HeroAnchor.astro";
+import Section from "./UI/Section.astro";
+---
+
+<Section className="grid grid-cols-2 gap-5">
+    <div class="flex flex-col justify-between">
+        <header class="space-y-4 text-white">
+            <h2 class="text-7xl">Conectamos tu mundo</h2>
+            <p class="text-3xl">En <span class="font-semibold">Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
+        </header>
+        <footer class="space-x-3">
+            <HeroAnchor href="/planes" text="Empresas"/>
+            <HeroAnchor href="/planes" text="Plan Gamer"/>
+            <HeroAnchor href="/planes" text="Ver planes"/>
+        </footer>
+    </div>
+    <img class="rounded-3xl w-full" src="/images/heroImage.jpg" alt="Imagen hero">
+</Section>
