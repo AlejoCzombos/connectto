@@ -1,0 +1,42 @@
+---
+import PlanAnchor from "./PlanAnchor.astro";
+
+const {gigas, buttonText, list } = Astro.props;
+---
+
+<article class="h-[500px] w-full max-w-[450px] rounded-[2.5rem] bg-primary-800 m-auto">
+    <header id="CardBackground" class="font-kanit flex flex-col justify-center items-center py-5 rounded-[2.5rem]">
+        <h3 class="text-[170px] lg:text-[200px] font-normal">{gigas}</h3>
+        <p class="text-6xl lg:text-7xl">megas</p>
+    </header>
+    <footer class="h-2/4 px-5 py-5 text-balance flex flex-col justify-between">
+        <ul class="list-disc list-outside pl-7" role="list">
+            {list.map((item) => (
+                <li>{item}</li>
+            ))}
+        </ul>
+        {buttonText &&(
+        <div class="text-right">
+             <PlanAnchor href="/" text={buttonText} />
+        </div>
+        )}
+    </footer>
+</article>
+
+<style>
+#CardBackground {
+    background: linear-gradient(180deg, #252729 0%, #FF8300 100%);
+    line-height: 150px;
+    letter-spacing: -9px;
+}
+#CardBackground p {
+    line-height: 53px;
+    letter-spacing: -1px;
+}
+li{
+    font-family: Kanit;
+    font-size: 26px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+</style>

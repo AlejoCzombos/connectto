@@ -1,0 +1,22 @@
+---
+import PlanCard from "./PlanCard.astro";
+import Section from "../UI/Section.astro";
+---
+
+<Section>
+  <h2>Nuestros planes a tu medida</h2>
+  <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 xl:grid-cols-3 gap-10 py-10">
+    <PlanCard gigas="30" buttonText="Contratá" list={["Conectate a tus aplicaciones sin interrupciones.", "Pensar otra característica."]}/>
+    <PlanCard gigas="60" buttonText="Contratá" list={["Disfruta de la navegación en varios dispositivos.", "Mirá contenido en tus plataformas favoritas."]}/>
+    <PlanCard gigas="100" list={["Navegá y descargá desde varios dispositivos a la vez.", "Disfrutá de contenidos y streamin en Ultra HD y 4K."]}/>
+  </div>
+  <footer class="flex md:justify-end">
+    <a href="/" class="rounded-full py-3 px-6 w-full md:max-w-52 text-[#F5F5F5] border border-[#F5F5F5] tracking-widest text-center text-xl xl:text-base">Ver más</a>
+  </footer>
+</Section>
+
+<style>
+  a{
+    background: linear-gradient(90deg, #011528 61%, #FF8300 100%);
+  }
+</style>

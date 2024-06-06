@@ -1,3 +1,5 @@
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: [
@@ -6,6 +8,10 @@ export default {
   ],
 	theme: {
 		extend: {
+			fontFamily: {
+				serif: ['DM Sans Variable', ...defaultTheme.fontFamily.serif],
+				kanit: ['Kanit', 'sans-serif'],
+			},
 			colors: {
 				'primary': {
 					'50': '#eff7ff',

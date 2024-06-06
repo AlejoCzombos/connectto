@@ -1,5 +1,5 @@
 ---
-import SwiperIcon from './Icons/SwiperIcon.astro';
+import SwiperIcon from '../Icons/SwiperIcon.astro';
 ---
 
 <script>
@@ -12,16 +12,16 @@ const swiper = new Swiper('.swiper', {
   modules: [Navigation],
   loop: true,
   spaceBetween: 0,
-  breakpoints: {
-    768: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-    },
-    1024: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-    },
-  },
+  // breakpoints: {
+  //   768: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 0,
+  //   },
+  //   1024: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 0,
+  //   },
+  // },
   navigation: {
     prevEl: '.swiper-button-prev',
     nextEl: '.swiper-button-next',
@@ -30,7 +30,7 @@ const swiper = new Swiper('.swiper', {
 </script>
 
 
-<section class="swiper w-full h-[600px] mt-6">
+<section class="swiper w-full xl:h-[600px] mt-6">
   <div class="swiper-wrapper" id="my-slider">
     <div class="swiper-slide h-[600px] rounded overflow-hidden">
       <img src="/images/image1.jpg" alt="" class="w-full h-full object-cover">
@@ -45,10 +45,10 @@ const swiper = new Swiper('.swiper', {
       <img src="/images/image4.jpg" alt="" class="w-full h-full object-cover">
     </div>
   </div>
-  <div class="swiper-button-prev rounded flex justify-center items-center ml-16">
+  <div class="swiper-button-prev rounded flex justify-center items-center ml-8 xl:ml-16">
     <SwiperIcon />
   </div>
-  <div class="swiper-button-next rounded flex justify-center items-center mr-16 transform rotate-180">
+  <div class="swiper-button-next rounded flex justify-center items-center mr-8 xl:mr-16 transform rotate-180">
     <SwiperIcon />
   </div>
 </section>
@@ -57,15 +57,5 @@ const swiper = new Swiper('.swiper', {
   .swiper-button-next::after,
   .swiper-button-prev::after {
     content: '';
-  }
-  @media (max-width: 768px) {
-    .swiper-slide {
-      width: 70%;
-      height: 400px;
-    }
-    .swiper-button-prev,
-    .swiper-button-next {
-      display: none;
-    }
   }
 </style>
