@@ -1,5 +1,8 @@
 ---
 import SwiperIcon from '../Icons/SwiperIcon.astro';
+
+
+const images = await Astro.glob('/public/images/carousel/*')
 ---
 
 <script>
@@ -12,6 +15,9 @@ const swiper = new Swiper('.swiper', {
   modules: [Navigation],
   loop: true,
   spaceBetween: 0,
+  slidesPerView: 1,
+  autoplay: true,
+  speed: 700,
   // breakpoints: {
   //   768: {
   //     slidesPerView: 1,
@@ -30,20 +36,13 @@ const swiper = new Swiper('.swiper', {
 </script>
 
 
-<section class="swiper w-full xl:h-[600px] mt-6">
+<section class="swiper w-full xl:h-auto mt-6">
   <div class="swiper-wrapper" id="my-slider">
+    {images.map(image => (
     <div class="swiper-slide h-[600px] rounded overflow-hidden">
-      <img src="/images/image1.jpg" alt="" class="w-full h-full object-cover">
+      <img src={image.default.src} alt="" class="w-full h-full object-cover">
     </div>
-    <div class="swiper-slide h-[600px] rounded overflow-hidden">
-      <img src="/images/image2.jpg" alt="" class="w-full h-full object-cover">
-    </div>
-    <div class="swiper-slide h-[600px] rounded overflow-hidden">
-      <img src="/images/image3.jpg" alt="" class="w-full h-full object-cover">
-    </div>
-    <div class="swiper-slide h-[600px] rounded overflow-hidden">
-      <img src="/images/image4.jpg" alt="" class="w-full h-full object-cover">
-    </div>
+    ))}
   </div>
   <div class="swiper-button-prev rounded flex justify-center items-center ml-8 xl:ml-16">
     <SwiperIcon />
