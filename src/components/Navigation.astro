@@ -1,12 +1,12 @@
 ---
-import NavigationAnchor from "./UI/NavigationAnchor.astro";
+import NavigationItem from "./UI/NavigationItem.astro";
 ---
 
-<div class="hidden md:flex justify-around max-w-5xl w-full bg-primary-800 py-5 px-9 absolute -bottom-3 left-1/2 transform -translate-x-1/2 z-50">
-    <NavigationAnchor href="/" text="Home" />
-    <NavigationAnchor href="/" text="Institucion" />
-    <NavigationAnchor href="/" text="Planes" />
-    <NavigationAnchor href="/" text="Empresa" />
-    <NavigationAnchor href="/" text="Cobertura" />
-    <NavigationAnchor href="/" text="Ayuda" />
+<div class="space-x-6">
+    <NavigationItem href="/" text="Home" />
+    <NavigationItem href="/" text="Institucion" />
+    <NavigationItem href="/" text="Planes" />
+    <NavigationItem href="/" text="Empresa" />
+    <NavigationItem href="/" text="Cobertura" />
+    <NavigationItem href="/" text="Ayuda" />
 </div>

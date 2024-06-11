@@ -39,7 +39,7 @@ const swiper = new Swiper('.swiper', {
 <section class="swiper w-full xl:h-auto mt-6">
   <div class="swiper-wrapper" id="my-slider">
     {images.map(image => (
-    <div class="swiper-slide h-[600px] rounded overflow-hidden">
+    <div class="swiper-slide h-auto rounded overflow-hidden">
       <img src={image.default.src} alt="" class="w-full h-full object-cover">
     </div>
     ))}

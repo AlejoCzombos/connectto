@@ -1,6 +1,7 @@
 ---
 import HeroAnchor from "../UI/HeroAnchor.astro";
 import Section from "../UI/Section.astro";
+import SecondaryButton from "../UI/SecondaryButton.astro";
 ---
 
 <Section class="flex flex-col xl:flex-row gap-4 xl:gap-8">
@@ -10,9 +11,9 @@ import Section from "../UI/Section.astro";
             <p>En <span class="font-semibold">Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
         </header>
         <footer class="flex flex-wrap gap-3">
-            <HeroAnchor href="/planes" text="Empresas"/>
-            <HeroAnchor href="/planes" text="Plan Gamer"/>
-            <HeroAnchor href="/planes" text="Ver planes"/>
+            <SecondaryButton href="/planes" text="Empresas"/>
+            <SecondaryButton href="/planes" text="Plan Gamer"/>
+            <SecondaryButton href="/planes" text="Ver planes"/>
         </footer>
     </div>
     <img class="rounded-3xl w-full max-w-3xl m-auto xl:w-[50%]" src="/images/heroImage.jpg" alt="Imagen hero">
