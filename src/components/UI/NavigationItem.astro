@@ -1,5 +1,5 @@
 ---
-const { href, text} = Astro.props;
+const { href, text,  class: className} = Astro.props;
 ---
 
-<a class="text-white text-base font-semibold hover:text-secondary-600" href={href}>{text}</a>
+<a class:list={["text-white text-base hover:text-secondary-600", className]} href={href}>{text}</a>

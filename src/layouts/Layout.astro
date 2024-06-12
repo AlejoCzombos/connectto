@@ -6,6 +6,7 @@ import '@fontsource/kanit/500.css';
 import '@fontsource/kanit/700.css';
 
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 interface Props {
 	title: string;
@@ -28,6 +29,7 @@ const { title, desciption } = Astro.props;
 	<body class="font-serif h-[100%]">
 		<Header/>
 		<slot />
+		<Footer/>
 	</body>
 </html>
 
@@ -36,22 +38,21 @@ const { title, desciption } = Astro.props;
 
 @layer base{
 	h1, h2 {
-		@apply text-4xl xl:text-5xl tracking-wide
+		@apply text-4xl xl:text-6xl tracking-tighter
 	}
 	h1, h2, h3, h4, h5, h6 {
 		@apply text-white font-bold
 	}
 	p {
-		@apply text-2xl xl:text-3xl text-white
-	}
-	span {
-		@apply font-bold
+		@apply text-xl xl:text-2xl text-white
 	}
 }
 
 html {
         height: auto;
-		background-image: linear-gradient(180deg, #335472 0%, #335472 0.01%, #1177F0 50%, #011528 100%);
+		/*background-image: linear-gradient(180deg, #335472 0%, #335472 0.01%, #1177F0 50%, #011528 100%);*/
+		background-image: linear-gradient(90deg, #02498E 0%, #011528 100%);
+
     }
 
     body {

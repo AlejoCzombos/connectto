@@ -1,42 +1,45 @@
 ---
+import PrimaryButton from "../UI/PrimaryButton.astro";
 import PlanAnchor from "./PlanAnchor.astro";
 
 const {gigas, buttonText, list } = Astro.props;
 ---
 
-<article class="h-[500px] w-full max-w-[450px] rounded-[2.5rem] bg-primary-800 m-auto">
-    <header id="CardBackground" class="font-kanit flex flex-col justify-center items-center py-5 rounded-[2.5rem]">
-        <h3 class="text-[170px] lg:text-[200px] font-normal">{gigas}</h3>
-        <p class="text-6xl lg:text-7xl">megas</p>
+<article id="card" class="rounded-xl m-auto relative">
+    <header id="card-header" class="font-kanit flex flex-col justify-center items-center size-64 rounded-lg absolute -top-5 left-1/2 transform -translate-x-1/2">
+        <h3 class="text-[70px] lg:text-[100px] font-normal">{gigas}</h3>
+        <p class="text-5xl lg:text-6xl">megas</p>
     </header>
-    <footer class="h-2/4 px-5 py-5 text-balance flex flex-col justify-between">
-        <ul class="list-disc list-outside pl-7" role="list">
+    <footer class="px-5 py-5 pt-64 text-balance flex flex-col justify-between">
+        <ul class="list-disc list-outside pl-6" role="list">
             {list.map((item) => (
                 <li>{item}</li>
             ))}
         </ul>
-        {buttonText &&(
-        <div class="text-right">
-             <PlanAnchor href="/" text={buttonText} />
+        <div class="text-center p-8">
+             <PrimaryButton href="/" text="Contratá" />
         </div>
-        )}
     </footer>
 </article>
 
 <style>
-#CardBackground {
-    background: linear-gradient(180deg, #252729 0%, #FF8300 100%);
-    line-height: 150px;
-    letter-spacing: -9px;
+#card {
+    background: linear-gradient(#02498E 0%, #011528 100%);
 }
-#CardBackground p {
+
+#card-header {
+    background: #1278F1;
+    line-height: 60px;
+    letter-spacing: -5px;
+}
+#card-header p {
     line-height: 53px;
     letter-spacing: -1px;
 }
 li{
-    font-family: Kanit;
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 5px 0;
     color: #FFFFFF;
 }
 </style>

@@ -1,0 +1,71 @@
+{
+    "columns": [
+        {
+            "name": "Conneccto",
+            "links": [
+                {
+                    "href": "/",
+                    "text": "Quienes somos"
+                },
+                {
+                    "href": "/",
+                    "text": "Trabaja con nosotros"
+                },
+                {
+                    "href": "/",
+                    "text": "Contacto"
+                }
+            ]
+        },
+        {
+            "name": "Planes",
+            "links": [
+                {
+                    "href": "/",
+                    "text": "Empresas"
+                },
+                {
+                    "href": "/",
+                    "text": "Plan Gamer"
+                },
+                {
+                    "href": "/",
+                    "text": "30 Megas"
+                },
+                {
+                    "href": "/",
+                    "text": "60 Megas"
+                },
+                {
+                    "href": "/",
+                    "text": "100 Megas"
+                }
+            ]
+        },
+        {
+            "name": "Ayuda",
+            "links": [
+                {
+                    "href": "/",
+                    "text": "Preguntas frecuentes"
+                },
+                {
+                    "href": "/",
+                    "text": "Medios de pago"
+                },
+                {
+                    "href": "/",
+                    "text": "Instalación"
+                },
+                {
+                    "href": "/",
+                    "text": "Cobertura"
+                }
+            ]
+        }
+    ],
+    "contact": {
+        "phone": "0800-123-4567",
+        "email": "ventas@conneccto.com"
+    }
+}

@@ -1,8 +1,17 @@
-<section class="py-5 lg:py-10">
-    <h2 class="px-10 pb-5 lg:px-24 lg:py-16">Nuevo: Plan Gamer</h2>
-    <div id="gamerPlan">
+---
+import PrimaryButton from "../UI/PrimaryButton.astro";
+---
 
-    </div>
+<section id="gamerPlan">
+    <header>
+        <h2>Plan<br>GAMER</h2>
+        <p>En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
+        <PrimaryButton class="w-32" text="Contratá" link="/planes/gamer" />
+    </header>
+    <svg id="circle" width="527" height="528" viewBox="0 0 527 528" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="263.5" cy="263.887" r="263.5" fill="#252729"/>
+    </svg>
+    <img src="/images/imagen-plangamer.jpeg" alt="Imagen plan gamer">
 </section>
 
 <style>
@@ -10,6 +19,45 @@
         background: var(--Gris, #252729);
         width: 100%;
         height: 498px;
-        top: 2233px;
+        position: relative;
+    }
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 100%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5rem;
+        gap: 1rem;
+    }
+    header h2{
+        font-size: 97px;
+        line-height: 85px;
+        letter-spacing: -4.5px;
+    }
+    header span{
+        font-weight: bold;
+    }
+    img{
+        width: 1070px;
+        height: 498px;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 0;
+        left: 55%;
+        transform: translate(-25%);
+    }
+    #circle{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: 45%;
+        transform: translate(-75%);
+        z-index: 1;
     }
 </style>
