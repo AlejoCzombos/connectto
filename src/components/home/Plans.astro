@@ -1,13 +1,20 @@
 ---
 import PlanCard from "./PlanCard.astro";
 import Section from "../UI/Section.astro";
+import PrimaryButton from "../UI/PrimaryButton.astro";
 ---
 
 <Section>
   <h2 class="text-[40px] text-center">Nuestros planes a tu medida</h2>
   <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 xl:grid-cols-3 gap-10 pt-10">
-    <PlanCard gigas="30" list={["Conectate a tus aplicaciones sin interrupciones.", "Pensar otra característica."]}/>
-    <PlanCard gigas="60" list={["Disfruta de la navegación en varios dispositivos.", "Mirá contenido en tus plataformas favoritas."]}/>
-    <PlanCard gigas="100" list={["Navegá y descargá desde varios dispositivos a la vez.", "Disfrutá de contenidos y streamin en Ultra HD y 4K."]}/>
+    <PlanCard gigas="30" list={["Conectate a tus aplicaciones sin interrupciones.", "Pensar otra característica."]}>
+      <PrimaryButton href="/" text="Contratar"/>
+    </PlanCard>
+    <PlanCard gigas="60" list={["Disfruta de la navegación en varios dispositivos.", "Mirá contenido en tus plataformas favoritas."]}>
+      <PrimaryButton href="/" text="Contratar"/>
+    </PlanCard>
+    <PlanCard gigas="100" list={["Navegá y descargá desde varios dispositivos a la vez.", "Disfrutá de contenidos y streamin en Ultra HD y 4K."]}>
+      <PrimaryButton href="/" text="Contratar"/>
+    </PlanCard>
   </div>
 </Section>

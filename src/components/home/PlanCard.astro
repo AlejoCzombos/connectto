@@ -1,8 +1,5 @@
 ---
-import PrimaryButton from "../UI/PrimaryButton.astro";
-import PlanAnchor from "./PlanAnchor.astro";
-
-const {gigas, buttonText, list } = Astro.props;
+const {gigas, list } = Astro.props;
 ---
 
 <article id="card" class="rounded-xl m-auto relative">
@@ -16,8 +13,8 @@ const {gigas, buttonText, list } = Astro.props;
                 <li>{item}</li>
             ))}
         </ul>
-        <div class="text-center p-8">
-             <PrimaryButton href="/" text="Contratá" />
+        <div class="flex justify-center items-center p-6">
+            <slot/>
         </div>
     </footer>
 </article>

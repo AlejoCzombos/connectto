@@ -6,9 +6,9 @@ import FacebookIcon from "./Icons/FacebookIcon.astro";
 import FooterInfo from "../utils/footer.json"
 ---
 
-<footer class="bg-[#252729] flex flex-row justify-center items-start gap-5 p-16">
+<footer class="bg-[#252729] flex flex-col lg:flex-row justify-center items-center lg:items-start gap-6 lg:gap-12 p-8 lg:p-16">
     <img class="h-12 object-contain" src="/logo.png" alt="logo">
-    <div class="flex gap-10">
+    <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
     {
         FooterInfo.columns.map((column) => (
             <div>
@@ -39,9 +39,9 @@ import FooterInfo from "../utils/footer.json"
             </div>
         </div>
     </div>
-    <div>
-        <h3>SEGUINOS</h3>
-        <div class="flex flex-wrap gap-3">
+    <div class="">
+        <h3 class="text-center lg:text-start">SEGUINOS</h3>
+        <div class="flex justify-center lg:justify-start gap-3">
             <InstagramIcon />
             <FacebookIcon />
         </div>

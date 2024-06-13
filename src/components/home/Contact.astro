@@ -2,9 +2,9 @@
 import Section from "../UI/Section.astro";
 ---
 
-<Section class="flex flex-row items-center gap-5">
-    <header class="space-y-5">
-        <h2 class="text-[39px]">¡Dejanos tu consulta!</h2>
+<Section class="flex flex-col lg:flex-row items-center justify-center gap-5">
+    <header class="space-y-2 lg:space-y-5">
+        <h2 class="text-[39px] lg:text-start text-center">¡Dejanos tu consulta!</h2>
         <p>Nuestro equipo te va a brindar el mejor asesoramiento.</p>
     </header>
     <form action="" class="flex flex-col w-full max-w-xl gap-2 text-white">
@@ -14,6 +14,6 @@ import Section from "../UI/Section.astro";
             <input type="email" placeholder="Email" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full">
         </div>
         <textarea class="text-bold min-h-20 max-h-52 bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" placeholder="Tu consulta"></textarea>
-        <button class="bg-[#1278F1] w-44 py-2 rounded-lg hover:scale-110 transition-transform duration-300 ease-in-out">Enviar consulta</button>
+        <button class="bg-[#1278F1] w-full lg:w-44 py-2 rounded-lg hover:scale-110 transition-transform duration-300 ease-in-out">Enviar consulta</button>
     </form>
 </Section>

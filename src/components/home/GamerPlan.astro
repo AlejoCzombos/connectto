@@ -3,7 +3,7 @@ import PrimaryButton from "../UI/PrimaryButton.astro";
 ---
 
 <section id="gamerPlan">
-    <header>
+    <header class="w-[60%] lg:w-[40%] pl-12 lg:pl-24">
         <h2>Plan<br>GAMER</h2>
         <p>En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
         <PrimaryButton class="w-32" text="Contratá" link="/planes/gamer" />
@@ -25,39 +25,39 @@ import PrimaryButton from "../UI/PrimaryButton.astro";
         position: absolute;
         top: 0;
         left: 0;
-        width: 40%;
         height: 100%;
         z-index: 2;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 5rem;
         gap: 1rem;
     }
     header h2{
         font-size: 97px;
         line-height: 85px;
         letter-spacing: -4.5px;
+        color: #FF8300;
     }
     header span{
         font-weight: bold;
     }
     img{
-        width: 1070px;
         height: 498px;
+        overflow: hidden;
         object-fit: cover;
         object-position: center;
         position: absolute;
         top: 0;
         left: 55%;
-        transform: translate(-25%);
+        transform: translate(-20%);
     }
     #circle{
         position: absolute;
+        overflow: hidden;
         top: 0;
         height: 100%;
         left: 45%;
-        transform: translate(-75%);
+        transform: translate(-59%);
         z-index: 1;
     }
 </style>
