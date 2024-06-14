@@ -1,0 +1,24 @@
+---
+import CorporatePlans from '../../components/plans/CorporatePlans.astro';
+import GamerPlan from '../../components/plans/GamerPlan.astro';
+import ResidentialsPlans from '../../components/plans/ResidentialsPlans.astro';
+import Layout from '../../layouts/Layout.astro';
+
+import json from '../../data/plans.json';
+const {"header-title": title, "header-subtitle": subtitle} = json
+---
+
+<Layout title="Connectto" desciption='Internet de fibra óptica'>
+    <main class="mt-36 lg:mt-32">
+        <header class="relative h-[30rem] flex flex-col justify-center items-start gap-4">
+            <div class="text-center lg:text-start p-0 md:pl-60 lg:pl-80 ">
+                <h1>{title}</h1>
+                <p>{subtitle}</p>
+            </div>
+            <img class="absolute h-full w-full object-cover top-0 left-0 -z-10" src="/images/header-planes.png" alt="Header seccion planes">
+        </header>
+        <ResidentialsPlans />
+        <CorporatePlans />
+        <GamerPlan />
+    </main>
+</Layout>

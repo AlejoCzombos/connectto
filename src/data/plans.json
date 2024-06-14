@@ -1,0 +1,74 @@
+{
+    "header-title": "Compartí y disfrutá",
+    "header-subtitle": "Estos son nuestros planes",
+    "residential-plans": {
+        "title": "Servicio residencial",
+        "subtitle": "Contratá la mejor velocidad de internet para tu hogar",
+        "plans": [
+            {
+                "megas": "30",
+                "features": [
+                    "Velocidad de 30 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "50",
+                "features": [
+                    "Velocidad de 50 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "100",
+                "features": [
+                    "Velocidad de 100 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            }
+        ]
+    },
+    "corporate-plans": {
+        "title": "Servicio corporativo",
+        "subtitle": "Contratá la mejor velocidad de internet para tu empresa",
+        "plans": [
+            {
+                "megas": "100",
+                "features": [
+                    "Velocidad de 100 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "200",
+                "features": [
+                    "Velocidad de 200 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "500",
+                "features": [
+                    "Velocidad de 500 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            }
+        ]
+    },
+    "gamer-plan": {
+        "title": "Plan<br>GAMER",
+        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.",
+        "megas": "60",
+        "features": [
+            "Velocidad de 1000 megas",
+            "Instalación gratis",
+            "Wifi gratis"
+        ]
+    }
+}

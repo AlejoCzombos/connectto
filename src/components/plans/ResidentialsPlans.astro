@@ -1,0 +1,25 @@
+---
+import ArrowIcon from "../Icons/arrowIcon.astro";
+import PrimaryButton from "../UI/PrimaryButton.astro";
+import Section from "../UI/Section.astro";
+import PlanCard from "../home/PlanCard.astro";
+
+import json from "../../data/plans.json"
+
+const {title, subtitle, plans} = json["residential-plans"]
+---
+
+<Section>
+    <div class="flex items-center gap-2">
+        <ArrowIcon />
+        <h3 class="text-secondary-600 tracking-wider">{title.toLocaleUpperCase()}</h2>
+    </div>
+    <h4 class="text-3xl">{subtitle}</h3>
+    <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 md:grid-rows-2 md:grid-cols-2 xl:grid-cols-3 gap-10 pt-10">
+        {plans.map(plan => (
+            <PlanCard gigas={plan.megas} features={plan.features}>
+                <PrimaryButton href="/" text="Contratar"/>
+            </PlanCard>
+        ))}
+    </div>
+</Section>

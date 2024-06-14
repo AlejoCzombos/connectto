@@ -1,0 +1,27 @@
+---
+import PrimaryButton from "../UI/PrimaryButton.astro";
+import PlanCard from "../home/PlanCard.astro";
+
+import json from "../../data/plans.json"
+
+const {title, subtitle, features, megas} = json["gamer-plan"]
+---
+
+<section class="flex flex-col md:flex-row items-center justify-center md:justify-evenly gap-9 md:gap-0 p-5 md:p-0 relative my-5 lg:my-16">
+    <header class="w-[90%] lg:w-[30%] pl-12 lg:pl-24 z-10 space-y-4">
+        <h2 class="text-6xl lg:text-8xl text-secondary-600" set:html={title}></h2>
+        <p set:html={subtitle}></p>
+    </header>
+    <div>
+        <PlanCard gigas={megas} features={features}>
+            <PrimaryButton href="/" text="Contratar"/>
+        </PlanCard>
+    </div>
+    <img class="absolute h-full w-full object-cover top-0 left-0 -z-10" src="/images/plan-gamer.png" alt="Header plan gamer">
+</section>
+
+<style>
+    img{
+        background: linear-gradient(89.62deg, #252729 14.67%, rgba(37, 39, 41, 0.505) 56.45%, rgba(37, 39, 41, 0) 86.47%);
+    }
+</style>

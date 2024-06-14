@@ -2,6 +2,8 @@
 import Navigation from "./Navigation.astro";
 import PrimaryButton from "./UI/PrimaryButton.astro";
 
+import json from "../data/header.json"
+const {buttons} = json
 ---
 
 <header class="fixed top-0 left-0 shadow-lg w-full h-36 lg:h-32 z-50 flex justify-center bg-slate-700 bg-opacity-20 backdrop-blur-lg drop-shadow-xl">
@@ -11,8 +13,9 @@ import PrimaryButton from "./UI/PrimaryButton.astro";
         </a>
         <Navigation />
         <div class="flex justify-center items-center gap-3 w-[300px]">
-            <PrimaryButton text="Acceder" href="/"/>
-            <PrimaryButton text="Pago online" href="/"/>
+            {buttons.map((button, index) => (
+                <PrimaryButton text={button.text} href={button.link} key={index}/>
+            ))}
         </div>
     </div>
 </header>

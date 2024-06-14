@@ -2,13 +2,16 @@
 import Section from "../UI/Section.astro";
 import SecondaryButton from "../UI/SecondaryButton.astro";
 import PrimaryButton from "../UI/PrimaryButton.astro";
+
+import json from "../../data/home.json"
+const {subtitle, title} = json.hero
 ---
 
 <Section class="flex flex-col xl:flex-row gap-4 xl:gap-8">
     <div class="flex flex-col justify-center order-last xl:order-first xl:w-[50%] gap-4">
         <header class="space-y-3 xl:space-y-5 text-white">
-            <h2>Conectamos tu mundo</h2>
-            <p>En <span class="font-semibold">Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
+            <h2>{title}</h2>
+            <p set:html={subtitle}></p>
         </header>
         <footer class="flex flex-wrap gap-3">
             <PrimaryButton href="/planes" text="Empresas"/>

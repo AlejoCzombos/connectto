@@ -7,6 +7,7 @@ import '@fontsource/kanit/700.css';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import InfoIcons from '../components/InfoIcons.astro';
 
 interface Props {
 	title: string;
@@ -29,6 +30,7 @@ const { title, desciption } = Astro.props;
 	<body class="font-serif h-[100%]">
 		<Header/>
 		<slot />
+		<InfoIcons/>
 		<Footer/>
 	</body>
 </html>
@@ -40,11 +42,20 @@ const { title, desciption } = Astro.props;
 	h1, h2 {
 		@apply text-4xl xl:text-6xl tracking-tighter
 	}
+	h3 {
+		@apply text-2xl xl:text-3xl tracking-tighter
+	}
 	h1, h2, h3, h4, h5, h6 {
 		@apply text-white font-bold
 	}
 	p {
 		@apply text-xl xl:text-2xl text-white
+	}
+	span {
+		@apply font-bold
+	}
+	a{
+		@apply text-white
 	}
 }
 

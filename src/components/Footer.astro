@@ -3,7 +3,7 @@ import NavigationItem from "./UI/NavigationItem.astro";
 import InstagramIcon from "./Icons/InstagramIcon.astro";
 import FacebookIcon from "./Icons/FacebookIcon.astro";
 
-import FooterInfo from "../utils/footer.json"
+import FooterInfo from "../data/footer.json"
 ---
 
 <footer class="bg-[#252729] flex flex-col lg:flex-row justify-center items-center lg:items-start gap-6 lg:gap-12 p-8 lg:p-16">
@@ -35,7 +35,7 @@ import FooterInfo from "../utils/footer.json"
                     <path d="M9.82043 5.01562C10.5163 5.96774 10.4425 6.61036 9.82043 7.43865" stroke="white" stroke-width="0.908633" stroke-linecap="round"/>
                     <path d="M10.7291 3.80371C11.9406 5.3181 12.052 6.78964 11.032 8.64975" stroke="white" stroke-width="0.908633" stroke-linecap="round"/>
                 </svg>
-                <span>{FooterInfo.contact.phone}</span>
+                <p>{FooterInfo.contact.phone}</p>
             </div>
         </div>
     </div>

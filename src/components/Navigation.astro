@@ -1,12 +1,17 @@
 ---
 import NavigationItem from "./UI/NavigationItem.astro";
+
+import json from "../data/header.json"
+const {navigation} = json
+
+const url = new URL(Astro.request.url);
+const currentPath = url.pathname;
 ---
 
 <div class="space-x-6 hidden lg:block">
-    <NavigationItem class="font-semibold" href="/" text="Home" />
-    <NavigationItem class="font-semibold" href="/" text="Institucion" />
-    <NavigationItem class="font-semibold" href="/" text="Planes" />
-    <NavigationItem class="font-semibold" href="/" text="Empresa" />
-    <NavigationItem class="font-semibold" href="/" text="Cobertura" />
-    <NavigationItem class="font-semibold" href="/" text="Ayuda" />
+    {
+        navigation.map((item, index) => (
+            <NavigationItem class={`font-semibold ${currentPath === item.href ? "text-secondary-600" : "text-white"}`} href={item.href} text={item.text} />
+        ))
+    }
 </div>

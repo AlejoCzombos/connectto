@@ -1,0 +1,60 @@
+{
+    "hero": {
+        "title": "Conectamos tu mundo",
+        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo."
+    },
+    "plans": {
+        "title": "Planes",
+        "plans": [
+            {
+                "megas": "30",
+                "features": [
+                    "Velocidad de 30 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "50",
+                "features": [
+                    "Velocidad de 50 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            },
+            {
+                "megas": "100",
+                "features": [
+                    "Velocidad de 100 megas",
+                    "Instalación gratis",
+                    "Wifi gratis"
+                ]
+            }
+        ]
+    },
+    "map": {
+        "title": "Cobertura de nuestro servicio",
+        "footer": {
+            "title": "Consultá tu zona",
+            "button": {
+                "text": "Quiero mas información",
+                "href": "https://www.google.com/maps"
+            }
+        }
+    },
+    "gamer-plan": {
+        "title": "Plan<br>GAMER",
+        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.",
+        "button": {
+            "text": "Contratá",
+            "href": "/planes"
+        }
+    },
+    "contact": {
+        "title": "¡Dejanos tu consulta!",
+        "subtitle": "Nuestro equipo te va a brindar el mejor asesoramiento.",
+        "button": {
+            "text": "Enviar consulta"
+        }
+    }
+}

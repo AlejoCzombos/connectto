@@ -1,12 +1,15 @@
 ---
 import PrimaryButton from "../UI/PrimaryButton.astro";
+
+import json from "../../data/home.json"
+const {title, subtitle, button} = json["gamer-plan"]
 ---
 
 <section id="gamerPlan">
     <header class="w-[60%] lg:w-[40%] pl-12 lg:pl-24">
-        <h2>Plan<br>GAMER</h2>
-        <p>En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.</p>
-        <PrimaryButton class="w-32" text="Contratá" link="/planes/gamer" />
+        <h2 set:html={title}></h2>
+        <p set:html={subtitle}></p>
+        <PrimaryButton class="w-32" text={button.text} href={button.href} />
     </header>
     <svg id="circle" width="527" height="528" viewBox="0 0 527 528" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="263.5" cy="263.887" r="263.5" fill="#252729"/>

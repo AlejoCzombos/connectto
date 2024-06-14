@@ -1,0 +1,38 @@
+{
+    "buttons": [
+        {
+            "text": "Acceder",
+            "link": "http://www.google.com"
+        },
+        {
+            "text": "Pago online",
+            "link": "http://www.google.com"
+        }
+    ],
+    "navigation": [
+        {
+            "text": "Home",
+            "href": "/"
+        },
+        {
+            "text": "Institucional",
+            "href": "/institutional"
+        },
+        {
+            "text": "Planes",
+            "href": "/planes"
+        },
+        {
+            "text": "Empresa",
+            "href": "/empresa"
+        },
+        {
+            "text": "Cobertura",
+            "href": "/cobertura"
+        },
+        {
+            "text": "Ayuda",
+            "href": "/ayuda"
+        }
+    ]
+}
