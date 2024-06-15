@@ -1,0 +1,25 @@
+---
+import Section from "../UI/Section.astro";
+
+import json from "../../data/institutional.json"
+const {title, content} = json.values
+---
+
+<Section>
+    <h2 class="text-secondary-600 lg:text-start text-center">{title}</h2>
+    <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 md:grid-rows-2 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10 pt-6 lg:pt-14">
+    {
+        content.map(({title, content, icon}) => (
+            <article class="flex flex-col items-center gap-5 lg:gap-10">
+                <header>
+                    <img src={icon} alt="icono del valor">
+                </header>
+                <footer class="space-y-2 lg:space-y-4">
+                    <h3 class="text-secondary-600 text-center">{title}</h3>
+                    <p class="text-base xl:text-lg">{content}</p>
+                </footer>
+            </article>
+        ))
+    }
+    </div>
+</Section>

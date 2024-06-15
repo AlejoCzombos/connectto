@@ -1,0 +1,18 @@
+---
+import Section from "../UI/Section.astro";
+
+import json from "../../data/institutional.json"
+const {title, content, image} = json.mision
+---
+
+<Section class="flex flex-col xl:flex-row gap-4 xl:gap-8">
+    <div class="flex flex-col justify-center order-last xl:order-first xl:w-[50%] gap-4">
+        <header class="space-y-3 xl:space-y-5 text-white">
+            <h2 class="text-secondary-600">{title}</h2>
+            {content.split("\n").map((paragraph) => (
+                <p class="text-xl">{paragraph}</p>
+            ))}
+        </header>
+    </div>
+    <img class="rounded-3xl w-full max-w-3xl m-auto xl:w-[50%] max-h-96 object-cover object-top" src={image} alt="Imagen hero">
+</Section>
