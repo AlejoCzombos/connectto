@@ -1,0 +1,70 @@
+{
+    "header": {
+        "title": "Preguntas frecuentes"
+    },
+    "tabs" : [
+        {
+            "title": "Administrativo / comercial",
+            "active": true,
+            "section": [
+                {
+                    "title": "Facturación y pagos",
+                    "questions": [
+                        {
+                            "question": "¿Cómo puedo pagar mi factura?",
+                            "answer": "Puedes pagar tu factura en línea, en persona o por teléfono. Para obtener más información, visita nuestra página de facturación y pagos."
+                        },
+                        {
+                            "question": "¿Cómo puedo ver mi factura?",
+                            "answer": "Puedes ver tu factura en línea. Para obtener más información, visita nuestra página de facturación y pagos."
+                        },
+                        {
+                            "question": "¿Cómo puedo cambiar mi dirección de facturación?",
+                            "answer": "Puedes cambiar tu dirección de facturación en línea. Para obtener más información, visita nuestra página de facturación y pagos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Gestiones comerciales y administrativas",
+                    "questions": [
+                        {
+                            "question": "¿Cómo puedo cambiar mi plan de servicio?",
+                            "answer": "Puedes cambiar tu plan de servicio en línea. Para obtener más información, visita nuestra página de gestiones comerciales y administrativas."
+                        },
+                        {
+                            "question": "¿Cómo puedo cancelar mi servicio?",
+                            "answer": "Puedes cancelar tu servicio en línea. Para obtener más información, visita nuestra página de gestiones comerciales y administrativas."
+                        },
+                        {
+                            "question": "¿Cómo puedo cambiar mi dirección de servicio?",
+                            "answer": "Puedes cambiar tu dirección de servicio en línea. Para obtener más información, visita nuestra página de gestiones comerciales y administrativas."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Técnico",
+            "active": false,
+            "section": [
+                {
+                    "title": "Soporte técnico",
+                    "questions": [
+                        {
+                            "question": "¿Cómo puedo reiniciar mi módem?",
+                            "answer": "Puedes reiniciar tu módem en línea. Para obtener más información, visita nuestra página de soporte técnico."
+                        },
+                        {
+                            "question": "¿Cómo puedo cambiar mi contraseña de Wi-Fi?",
+                            "answer": "Puedes cambiar tu contraseña de Wi-Fi en línea. Para obtener más información, visita nuestra página de soporte técnico."
+                        },
+                        {
+                            "question": "¿Cómo puedo solucionar problemas de conexión?",
+                            "answer": "Puedes solucionar problemas de conexión en línea. Para obtener más información, visita nuestra página de soporte técnico."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

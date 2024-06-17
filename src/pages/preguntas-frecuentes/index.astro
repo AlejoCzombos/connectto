@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/UI/Section.astro';
+import Question from '../../components/frequent-questions/question.astro';
+
+import json from '../../data/frequent-questions.json';
+
+const {header, tabs} = json;
+---
+
+<Layout title="Connectto" desciption='Internet de fibra óptica'>
+    <main class="mt-36 lg:mt-32">
+        <Section class="relative">
+            <ul id="tabs" class="flex flex-wrap font-medium text-center border-b-2 border-secondary-600 text-xl">
+                {tabs.map((tab, index) => (
+                    <li class="me-2">
+                        <a href={`#tap${index}`} aria-current={tab.active ? 'page' : undefined} class={`inline-block py-2 px-10 min-w-64 rounded-t-2xl transition-colors duration-200 ease-in-out ${tab.active ? 'text-white bg-secondary-600' : ''}`}>
+                            {tab.title}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+
+            <!-- Tab Contents -->
+            <div id="tab-contents" class="rounded">
+            {
+                tabs.map((tab, index) => (
+                    <div id={`tap${index}`} class={`p-4 ${tab.active ? '' : 'hidden'}`}>
+                    {
+                        tab.section.map((section) => (
+                            <div class="space-y-10">
+                                <h2 class="text-3xl lg:text-4xl border-b-2 border-gray-500 p-5">{section.title}</h2>
+                                <div class="space-y-5">
+                                {
+                                    section.questions.map((question) => (
+                                        <Question question={question.question} answer={question.answer} />
+                                    ))
+                                }
+                                </div>
+                            </div>
+                        ))
+                    }
+                    </div>
+                ))
+            }
+            </div>
+        </Section>
+    </main>
+</Layout>
+
+
+<script>
+let tabsContainer = document.querySelector("#tabs");
+let tabTogglers = tabsContainer.querySelectorAll("a");
+
+tabTogglers.forEach(function(toggler) {
+  toggler.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    let tabName = this.getAttribute("href");
+
+    let tabContents = document.querySelector("#tab-contents");
+
+    for (let i = 0; i < tabTogglers.length; i++) {
+
+      tabTogglers[i].classList.remove("active", "bg-[#02498E]", "hover:text-gray-600", "text-white", "bg-secondary-600");
+
+      tabContents.children[i].classList.add("hidden");
+    }
+
+    document.querySelector(tabName).classList.remove("hidden");
+    this.classList.add("active", "text-white", "bg-secondary-600");
+    this.parentElement.classList.add("text-blue-600");
+  });
+});
+
+// Activar la primera pestaña por defecto
+document.querySelector("#tabs a").click();
+</script>

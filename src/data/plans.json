@@ -36,7 +36,8 @@
         "subtitle": "Contratá la mejor velocidad de internet para tu empresa",
         "plans": [
             {
-                "megas": "100",
+                "upload_megas": "100",
+                "download_megas": "50",
                 "features": [
                     "Velocidad de 100 megas",
                     "Instalación gratis",
@@ -44,7 +45,8 @@
                 ]
             },
             {
-                "megas": "200",
+                "upload_megas": "200",
+                "download_megas": "80",
                 "features": [
                     "Velocidad de 200 megas",
                     "Instalación gratis",
@@ -52,9 +54,10 @@
                 ]
             },
             {
-                "megas": "500",
+                "upload_megas": "300",
+                "download_megas": "100",
                 "features": [
-                    "Velocidad de 500 megas",
+                    "Velocidad de 300 megas",
                     "Instalación gratis",
                     "Wifi gratis"
                 ]

@@ -1,11 +1,12 @@
 ---
-const {gigas, features } = Astro.props;
+const {megas, features, dowload } = Astro.props;
 ---
 
 <article id="card" class="rounded-xl m-auto relative w-full min-w-[300px] max-w-[400px] shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300">
     <header id="card-header" class="font-kanit flex flex-col justify-center items-center size-64 rounded-lg absolute -top-5 left-1/2 transform -translate-x-1/2">
-        <h3 class="text-[70px] lg:text-[100px] font-normal">{gigas}</h3>
+        <h3 class="text-[70px] lg:text-[100px] font-normal">{megas}</h3>
         <p class="text-5xl lg:text-6xl">megas</p>
+        { dowload && <p class="text-3xl lg:text-4xl text-secondary-600">{megas}/{dowload}</p>}
     </header>
     <footer class="px-5 py-5 pt-64 text-balance flex flex-col justify-between">
         <ul class="list-disc list-outside pl-6" role="list">
@@ -26,9 +27,12 @@ const {gigas, features } = Astro.props;
 
 #card-header {
     background: #1278F1;
-    line-height: 60px;
+}
+#card-header h3 {
+    line-height: 70px;
     letter-spacing: -5px;
 }
+
 #card-header p {
     line-height: 53px;
     letter-spacing: -1px;

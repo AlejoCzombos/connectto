@@ -1,0 +1,37 @@
+---
+const { question, answer } = Astro.props
+---
+
+<div class="relative">
+    <details id="question" class="group pl-6 py-5">
+        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+            <h4 class="text-xl lg:text-2xl">{question}</h4>
+            <span class="transition group-open:rotate-180 bg-secondary-600 rounded-lg mr-6">
+                <svg fill="none" height="24" shape-rendering="rounded" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+            </span>
+        </summary>
+        <p class="mt-3 group-open:animate-fadeIn text-lg lg:text-xl">
+            {answer}
+        </p>
+    </details>
+</div>
+
+<style>
+#question[open] {
+  background-color: #00274D80;
+  transition: all 0.3s ease-in-out;
+}
+#question:not([open]) {
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+#question::after {
+  position: absolute;
+  content: "";
+  bottom: 0rem;
+  left: 0;
+  width: 12px;
+  height: 100%;
+  background-color: #FF8300;
+}
+</style>

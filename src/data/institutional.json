@@ -20,17 +20,17 @@
             {
                 "title": "Excelencia",
                 "content": "Sentimos pasión por la excelencia técnica. Buscamos la perfección en la implementación y entrega de soluciones técnicas, manteniendo altos estándares de calidad en todo momento.",
-                "icon": "images/excelencia.svg"
+                "icon": "icons/institucional/excelencia.svg"
             },
             {
                 "title": "Empatizar",
                 "content": "Valoramos a nuestros clientes y nos esforzamos por entender sus necesidades y preocupaciones, brindando soluciones personalizadas y atentas.",
-                "icon": "images/empatizar.svg"
+                "icon": "icons/institucional/empatizar.svg"
             },
             {
                 "title": "Innovar",
                 "content": "Abrazamos la innovación tecnológica y nos esforzamos por ser líderes en la adopción de nuevas tecnologías para mejorar continuamente nuestros productos y servicios. Somos ágiles y flexibles en un entorno tecnológico en constante cambio.",
-                "icon": "images/innovar.svg"
+                "icon": "icons/institucional/innovar.svg"
             }
         ]
     }
