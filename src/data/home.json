@@ -44,7 +44,13 @@
     },
     "gamer-plan": {
         "title": "Plan<br>GAMER",
-        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.",
+        "subtitle": "Experimentá el poder del juego sin interrupciones con nuestro servicio. Velocidad, baja latencia y la estabilidad que necesitás para ganar. ¡No dejes que el lag te detenga!",
+        "image": "/images/plan-gamer-home.png",
+        "features": [
+            "300 MEGAS",
+            "SIN IP PÚBLICA",
+            "MÓDEM DUAL BAND"
+        ],
         "button": {
             "text": "Contratá",
             "href": "/planes"

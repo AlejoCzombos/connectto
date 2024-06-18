@@ -4,7 +4,7 @@ import PlanCard from "../home/PlanCard.astro";
 
 import json from "../../data/plans.json"
 
-const {title, subtitle, features, megas} = json["gamer-plan"]
+const {title, subtitle, features, upload_megas, download_megas} = json["gamer-plan"]
 ---
 
 <section class="flex flex-col md:flex-row items-center justify-center md:justify-evenly gap-9 md:gap-0 p-5 md:p-0 relative my-5 lg:my-16">
@@ -13,7 +13,7 @@ const {title, subtitle, features, megas} = json["gamer-plan"]
         <p set:html={subtitle}></p>
     </header>
     <div>
-        <PlanCard megas={megas} features={features}>
+        <PlanCard megas={upload_megas} dowload={download_megas} features={features}>
             <PrimaryButton href="/" text="Contratar"/>
         </PlanCard>
     </div>

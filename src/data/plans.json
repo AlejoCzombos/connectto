@@ -70,11 +70,11 @@
     "gamer-plan": {
         "title": "Plan<br>GAMER",
         "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.",
-        "megas": "60",
+        "upload_megas": "300",
+        "download_megas": "100",
         "features": [
-            "Velocidad de 1000 megas",
-            "Instalación gratis",
-            "Wifi gratis"
+            "Sin IP pública",
+            "Instalación de módem dual band"
         ]
     }
 }

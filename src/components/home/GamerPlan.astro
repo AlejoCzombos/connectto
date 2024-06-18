@@ -2,65 +2,38 @@
 import PrimaryButton from "../UI/PrimaryButton.astro";
 
 import json from "../../data/home.json"
-const {title, subtitle, button} = json["gamer-plan"]
+const {title, subtitle, image, features, button} = json["gamer-plan"]
 ---
 
-<section id="gamerPlan">
-    <header class="w-[60%] lg:w-[40%] pl-12 lg:pl-24">
-        <h2 set:html={title}></h2>
-        <p set:html={subtitle}></p>
-        <PrimaryButton class="w-32" text={button.text} href={button.href} />
-    </header>
-    <svg id="circle" width="527" height="528" viewBox="0 0 527 528" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="263.5" cy="263.887" r="263.5" fill="#252729"/>
-    </svg>
-    <img src="/images/imagen-plangamer.jpeg" alt="Imagen plan gamer">
+<section class="relative h-[30rem] flex flex-col justify-center items-start gap-4">
+    <div class="text-start mx-auto max-w-6xl w-full flex flex-col items-start justify-center gap-5 relative px-10">
+        <h2 class="text-6xl lg:text-8xl" set:html={title}></h2>
+        <p class="lg:w-[70%]" set:html={subtitle}></p>
+        <PrimaryButton text={button.text} href={button.href} />
+        <span class="hidden xl:block absolute top-10 left-[25rem] border-l border-white pl-5">
+            <ul class="space-y-4">
+                {
+                features.map((feature) => (
+                    <li class="text-secondary-600 font-semibold text-xl lg:text-2xl">{feature}</li>
+                ))
+                }
+            </ul>
+        </span>
+    </div>
+    <img class="absolute h-full w-full object-cover top-0 left-0 -z-10" src={image} alt="Imagen plan gamer">
 </section>
 
 <style>
-    #gamerPlan{
-        background: var(--Gris, #252729);
-        width: 100%;
-        height: 498px;
-        position: relative;
+    section {
+        background: linear-gradient(89.62deg, #252729 5.34%, rgba(37, 39, 41, 0.505) 45.5%, rgba(37, 39, 41, 0) 86.47%);
     }
-    header{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        z-index: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-    }
-    header h2{
-        font-size: 97px;
-        line-height: 85px;
-        letter-spacing: -4.5px;
+    h2{
         color: #FF8300;
     }
-    header span{
-        font-weight: bold;
-    }
-    img{
-        height: 498px;
-        overflow: hidden;
-        object-fit: cover;
-        object-position: center;
-        position: absolute;
-        top: 0;
-        left: 55%;
-        transform: translate(-20%);
-    }
-    #circle{
-        position: absolute;
-        overflow: hidden;
-        top: 0;
-        height: 100%;
-        left: 45%;
-        transform: translate(-59%);
-        z-index: 1;
+    @media width > 1024px {
+        h2{
+            line-height: 85px;
+            letter-spacing: -4.5px;
+        }
     }
 </style>
