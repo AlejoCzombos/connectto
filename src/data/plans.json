@@ -1,6 +1,9 @@
 {
-    "header-title": "Compartí y disfrutá",
-    "header-subtitle": "Estos son nuestros planes",
+    "header": {
+        "title": "Compartí y disfrutá",
+        "subtitle": "Estos son nuestros planes",
+        "image": "/images/header-planes.png"
+    },
     "residential-plans": {
         "title": "Servicio residencial",
         "subtitle": "Contratá la mejor velocidad de internet para tu hogar",

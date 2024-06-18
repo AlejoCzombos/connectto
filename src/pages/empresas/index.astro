@@ -1,11 +1,10 @@
 ---
-import CorporatePlans from '../../components/plans/CorporatePlans.astro';
-import GamerPlan from '../../components/plans/GamerPlan.astro';
-import ResidentialsPlans from '../../components/plans/ResidentialsPlans.astro';
 import Layout from '../../layouts/Layout.astro';
 
-import json from '../../data/plans.json';
-const {header: {image, subtitle, title}} = json
+import json from '../../data/companies.json';
+import ExtendedFeatures from '../../components/companies/ExtendedFeatures.astro';
+import Features from '../../components/companies/Features.astro';
+const {header: {image, subtitle, title} } = json
 ---
 
 <Layout title="Connectto" desciption='Internet de fibra óptica'>
@@ -17,8 +16,7 @@ const {header: {image, subtitle, title}} = json
             </div>
             <img class="absolute h-full w-full object-cover top-0 left-0 -z-10" src={image} alt="Header seccion planes">
         </header>
-        <ResidentialsPlans />
-        <CorporatePlans />
-        <GamerPlan />
+        <Features />
+        <ExtendedFeatures />
     </main>
 </Layout>

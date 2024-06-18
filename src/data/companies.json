@@ -1,0 +1,89 @@
+{
+    "header": {
+        "title": "Plan para empresas",
+        "subtitle": "Un plan hecho a medida",
+        "image": "/images/header-empresas.png"
+    },
+    "features": [
+        {
+            "icon": "/icons/institucional/1.svg",
+            "description": "Servicio simétrico dedicado."
+        },
+        {
+            "icon": "/icons/institucional/2.svg",
+            "description": "Atención telefónica exclusiva para empresas."
+        },
+        {
+            "icon": "/icons/institucional/3.svg",
+            "description": "Atención telefónica y velocidad de resolución."
+        },
+        {
+            "icon": "/icons/institucional/4.svg",
+            "description": "Herramientas de ultima generación."
+        },
+        {
+            "icon": "/icons/institucional/5.svg",
+            "description": "Atención VIP con personal capacitado."
+        },
+        {
+            "icon": "/icons/institucional/6.svg",
+            "description": "Conectividad backup."
+        },
+        {
+            "icon": "/icons/institucional/7.svg",
+            "description": "Todos los medios de pago."
+        }
+    ],
+    "extended-features": [
+        {
+            "icon": "/icons/institucional/1.svg",
+            "title": "Personalizado",
+            "features": [
+                "Servicio Simétrico Dedicado de 10mb a 200mb. Cotizaciones a medida por servicios de mayor capacidad.",
+                "Este servicio cuenta con un bloque de 5 direcciones IP para utilización del cliente.",
+                "Bloque IP Público /29 ó /30 (o consultar otros planes)."
+            ]
+        },
+        {
+            "icon": "/icons/institucional/2.svg",
+            "title": "Atención exclusiva",
+            "features": [
+                "Atención telefónica corporativa las 24 horas, de lunes a lunes, con resolución de conflictos en un plazo no mayor a 24 horas.",
+                "Contamos con personal idóneo y capacitado para afrontar las dificultades que se presenten.",
+                "Call center propio."
+            ]
+        },
+        {
+            "icon": "/icons/institucional/5.svg",
+            "title": "Soporte VIP",
+            "features": [
+                "Número de teléfono particular para clientes corporativos, por lo cual no tendrá demora en la respuesta frente a una necesidad ó un soporte"
+            ]
+        },
+        {
+            "icon": "/icons/institucional/7.svg",
+            "title": "Comodidad de pago",
+            "features": [
+                "Cargo de instalación por única vez.",
+                "Contamos con todos los medios de pago virtuales para una mayor comodidad.",
+                "Área de administración especializada para clientes que desean abonar en el local."
+            ]
+        },
+        {
+            "icon": "/icons/institucional/4.svg",
+            "title": "Calidad tecnológica",
+            "features": [
+                "Bloque IP Público /29 o /30 (o consultar otros planes).",
+                "ONU con puertos Ethernet y Wifi.",
+                "Acceso por radioenlace para obtener redundancia de servicio ante alguna eventual falla de la red troncal de F.O. (opcional). Cotización según relevamiento."
+            ]
+        },
+        {
+            "icon": "/icons/institucional/6.svg",
+            "title": "Adicionales",
+            "features": [
+                "Servicio opcional de conectividad back-up por aire en períodos de reparación de la fibra óptica."
+            ]
+        }
+    ]
+}
