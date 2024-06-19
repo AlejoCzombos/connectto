@@ -10,7 +10,7 @@ const currentPath = url.pathname;
 
 <div class="space-x-6 hidden lg:block">
     {
-        navigation.map((item, index) => (
+        navigation.map((item) => (
             <NavigationItem class={`font-semibold ${currentPath === item.href ? "text-secondary-600" : "text-white"}`} href={item.href} text={item.text} />
         ))
     }
