@@ -11,6 +11,7 @@ const {header, tabs} = json;
 <Layout title="Connectto" desciption='Internet de fibra óptica'>
     <main class="mt-32">
         <Section class="relative">
+            <h1 class="pb-10 text-center">{header.title}</h1>
             <ul id="tabs" class="flex flex-wrap font-medium text-center border-b-2 border-secondary-600 text-xl">
                 {tabs.map((tab, index) => (
                     <li class="me-2">
@@ -32,8 +33,8 @@ const {header, tabs} = json;
                                 <h2 class="text-3xl lg:text-4xl border-b-2 border-gray-500 p-5">{section.title}</h2>
                                 <div class="space-y-5">
                                 {
-                                    section.questions.map((question) => (
-                                        <Question question={question.question} answer={question.answer} />
+                                    section.questions.map(({question, answer, answers, image}) => (
+                                        <Question question={question} answers={answers} answer={answer} image={image} />
                                     ))
                                 }
                                 </div>
