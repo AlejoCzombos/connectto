@@ -1,9 +1,16 @@
 ---
 import InterrogationIcon from "./Icons/InterrogationIcon.astro";
 import WhatsAppIcon from "./Icons/WhatsAppIcon.astro";
+
+import json from "../data/footer.json"
+const {contact: {WhatsApp}} = json
 ---
 
 <div class="fixed bottom-10 right-10 z-30 flex flex-col gap-2">
-    <InterrogationIcon />
-    <WhatsAppIcon />
+    <a target='_blank' href="/preguntas-frecuentes">
+        <InterrogationIcon />
+    </a>
+    <a target='_blank' href=`https://wa.me/+549${WhatsApp}`>
+        <WhatsAppIcon />
+    </a>
 </div>

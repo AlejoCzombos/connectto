@@ -2,11 +2,11 @@
     "buttons": [
         {
             "text": "Acceder",
-            "link": "http://www.google.com"
+            "link": "http://cliente.connectto.com.ar/bills/login.php"
         },
         {
             "text": "Pago online",
-            "link": "http://www.google.com"
+            "link": "https://www.bancoroela.com.ar:8081"
         }
     ],
     "navigation": [

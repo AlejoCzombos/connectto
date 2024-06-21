@@ -12,12 +12,11 @@
                     "questions": [
                         {
                             "question": "¿Cómo descargo mi factura?",
-                            "answer": "Podes descargar la factura haciendo clic en el siguiente enlace (link al portal clientes), debes iniciar sesión ingresando el DNI del titular del servicio como usuario y también como clave. Una vez logueado, debes seleccionar el comprobante que quieras descargar y luego hacer click en el botón 'Descargar'."
+                            "answer": "Podés descargar la factura haciendo clic en el siguiente enlace <a target='_blank' class='cursor-pointer text-secondary-600' href='google.com'>Click aquí</a>, debés iniciar sesión ingresando el DNI del titular del servicio como usuario y también como clave. Una vez logueado, debés seleccionar el comprobante que quieras descargar y luego hacer click en el botón 'Descargar'."
                         },
                         {
                             "question": "¿Cómo pago mi factura?",
-                            "answer": "Tenemos disponible todos los canales de pago: Efectivo en Rapipago, Pago Fácil, Oficina comercial, Débito Automático, Tarjeta de crédito, Mercado Pago, Red Link, Banelco y más.\n Para mas información comunicate por WhatsApp haciendo click en el botón que figura al final de esta guía.",
-                            "image": "/images/vision.png"
+                            "answer": "Tenemos disponibles todos los canales de pago: Efectivo en Rapipago, Pago Fácil, Oficina comercial, Débito Automático, Tarjeta de crédito, Mercado Pago, Red Link, Banelco y más.<br><br>Para más información comunicate por WhatsApp haciendo <a target='_blank' class='cursor-pointer text-secondary-600' href='https://wa.me/+5493624716945'>click aquí</a>."
                         },
                         {
                             "question": " ¿Es necesario que avise el pago de mi factura?",
@@ -25,11 +24,11 @@
                         },
                         {
                             "question": "¿Puedo hacer el pago de todos los meses con la misma factura?",
-                            "answer": "Si. Cada cliente tiene asignado un código único por lo que podes usar la factura de un mes anterior para pagar el periodo actual."
+                            "answer": "Sí. Cada cliente tiene asignado un código único por lo que podés usar la factura de un mes anterior para pagar el periodo actual."
                         },
                         {
                             "question": "No tengo servicio por falta de pago ¿Cómo hago para abonar?",
-                            "answer": "El pago lo podes realizar de manera online escribiendo por WhatsApp haciendo click en el botón que figura al final de esta guía. Enviá la palabra “Hola” y seguí las instrucciones, una vez que ingreses el DNI del titular del servicio, se generará un link para abonar a través de Mercado Pago. Abonando de esta manera, el servicio se habilitará automáticamente dentro de las siguientes horas."
+                            "answer": "Podés realizar el pago de manera online escribiendo por <a target='_blank' class='cursor-pointer text-secondary-600' href='https://wa.me/+5493624716945'>WhatsApp</a> haciendo click en el botón que figura al costado de esta guía. Enviá la palabra “Hola” y seguí las instrucciones, una vez que ingreses el DNI del titular del servicio, se generará un link para abonar a través de Mercado Pago. Abonando de esta manera, el servicio se habilitará automáticamente dentro de las siguientes horas."
                         }
                     ]
                 },
@@ -38,11 +37,7 @@
                     "questions": [
                         {
                             "question": "¿Cómo traslado mi servicio a otro domicilio?",
-                            "answer": "El traslado del servicio a otro domicilio lo podrás solicitar mediante WhatsApp haciendo clic en el botón que figura al final de esta guía.<br><br>El horario de atención para esta gestión es de lunes a viernes de 8 a 17 y sábados de 9 a 13 horas.<br><br>Para iniciar la gestión de cambio de domicilio, deberás tener la factura al día e informar el domicilio exacto donde te mudarás.<br><br>Esta gestión tiene costo. Deberás consultarlo en ese momento."
-                        },
-                        {
-                            "question": "¿Querés hacer un cambio de titularidad en el servicio?",
-                            "answer": "Para poder hacer el cambio de titularidad, no se debe de tener impaga ninguna factura. El cambio lo debe de solicitar el titular actual, enviando un mensaje a través de Whatsapp ingresando la opción “cambio de titularidad”. Luego deberá seguir las indicaciones, deberá tener a mano su DNI para poder validar su identidad.<br><br>Una vez enviada la información, el nuevo titular debe acercarse a la oficina comercial para firmar el nuevo contrato y así finalizar el trámite."
+                            "answer": "El traslado del servicio a otro domicilio lo podrás solicitar mediante WhatsApp haciendo <a target='_blank' class='cursor-pointer text-secondary-600' href='https://wa.me/+5493624716945'>click aquí</a><br><br>El horario de atención para esta gestión es de <strong>lunes a viernes</strong> de <strong>8:00</strong> a <strong>17:00</strong>, y sábados de <strong>9:00</strong> a <strong>13:00</strong> horas.<br><br>Para iniciar la gestión de cambio de domicilio, deberás tener la factura al día e informar el domicilio exacto donde te mudarás.<br><br>Esta gestión tiene costo. Deberás consultarlo en ese momento."
                         },
                         {
                             "question": "¿Querés hacer un cambio de titularidad en el servicio?",
@@ -50,7 +45,7 @@
                         },
                         {
                             "question": "¿Cómo doy de baja el servicio?",
-                            "answer": "Se podrá solicitar en cualquier momento, cancelando todos tus consumos y cargos hasta ese momento. Para evitar abonar una nueva factura, debe solicitarse antes de fin de mes.<br><br>Para seguir esta gestión, comunicate por WhatsApp haciendo click en el botón que figura al final de esta guía o por teléfono al 3624716945, 3624219385.<br><br>La misma debe ser solicitada únicamente por el titular del servicio."
+                            "answer": "Se podrá solicitar en cualquier momento, cancelando todos tus consumos y cargos hasta ese momento. Para evitar abonar una nueva factura, debe solicitarse antes de fin de mes.<br><br>Para seguir esta gestión, comunicate por WhatsApp haciendo <a target='_blank' class='cursor-pointer text-secondary-600' href='https://wa.me/+5493624716945'>click aquí</a><br><br>La misma debe ser solicitada únicamente por el titular del servicio."
                         }
                     ]
                 }
@@ -66,25 +61,25 @@
                         {
                             "question": "¿Cómo puedo verificar mi conexión?",
                             "answers": [
-                                "<strong>Conexión eléctrica y WIFI: </strong>Asegúrate de que el equipo esté correctamente conectado a la corriente eléctrica y de que las luces verdes estén encendidas, lo que indica que el dispositivo está recibiendo alimentación. Además, verifica que la función WIFI de tu dispositivo esté activa y que estés conectado a tu red para garantizar una conexión adecuada a Internet.",
-                                "<strong>Luz roja parpadeante: </strong>Si notas una luz roja parpadeante en el módem, intenta reiniciarlo desconectándolo de la corriente eléctrica por 30 segundos y luego volviendo a conectarlo. Esto puede solucionar problemas temporales de conexión. Si la luz roja persiste después de reiniciar el módem, podría indicar un problema más serio, como un cable de fibra óptica cortado."
+                                "<strong>Conexión eléctrica y WIFI: </strong>Asegurate de que el equipo esté correctamente conectado a la corriente eléctrica y de que las luces verdes estén encendidas, lo que indica que el dispositivo está recibiendo alimentación. Además, verificá que la función WIFI de tu dispositivo esté activa y que estés conectado a tu red para garantizar una conexión adecuada a Internet.",
+                                "<strong>Luz roja parpadeante: </strong>Si notás una luz roja parpadeante en el módem, intentá reiniciarlo desconectándolo de la corriente eléctrica por 30 segundos y luego volviendo a conectarlo. Esto puede solucionar problemas temporales de conexión. Si la luz roja persiste después de reiniciar el módem, podría indicar un problema más serio, como un cable de fibra óptica cortado."
                             ]
                         },
                         {
                             "question": "¿Experimentas intermitencias en la conexión?",
                             "answers": [
-                                "<strong>Identificación del problema: </strong>Si experimentas intermitencias en la conexión, es útil determinar si el problema se presenta en alguna aplicación específica, página web, herramienta o dispositivo en particular. Esto ayudará a enfocar la solución en el área afectada y a entender mejor la naturaleza del problema.",
-                                "<strong>Prueba de dispositivo: </strong>Para aislar el problema, intenta dejar solo un dispositivo conectado donde experimentas las intermitencias y verifica su funcionamiento nuevamente. Esto puede ayudar a identificar si el problema está relacionado con un dispositivo específico o si es más generalizado.",
-                                "<strong>Medición de velocidad: </strong>Realizar una medición de velocidad de Internet puede proporcionar información sobre el rendimiento de tu conexión. Se recomienda realizar esta prueba con un solo dispositivo conectado a la red, preferiblemente por cable (PC o portátil), para obtener resultados más precisos. Puedes realizar la medición ingresando desde un navegador web a sitios como www.nperf.com o www.speedtest.net."
+                                "<strong>Identificación del problema: </strong>Si experimentás intermitencias en la conexión, es útil determinar si el problema se presenta en alguna aplicación específica, página web, herramienta o dispositivo en particular. Esto ayudará a enfocar la solución en el área afectada y a entender mejor la naturaleza del problema.",
+                                "<strong>Prueba de dispositivo: </strong>Para aislar el problema, intentá dejar sólo un dispositivo conectado donde experimentarás las intermitencias, y verificá su funcionamiento nuevamente. Esto puede ayudar a identificar si el problema está relacionado con un dispositivo específico o si es más generalizado.",
+                                "<strong>Medición de velocidad: </strong>Realizar una medición de velocidad de Internet puede proporcionar información sobre el rendimiento de tu conexión. Se recomienda realizar esta prueba con un solo dispositivo conectado a la red, preferiblemente por cable (PC o portátil), para obtener resultados más precisos. Podés realizar la medición ingresando desde un navegador web a sitios como <a target='_blank' class='cursor-pointer text-secondary-600' target='_blank' href='https://www.nperf.com'>www.nperf.com</a> o <a target='_blank' class='cursor-pointer text-secondary-600' target='_blank' href='https://www.speedtest.net'>www.speedtest.net</a>."
                             ]
                         },
                         {
                             "question": "Recomendaciones:",
                             "answers": [
-                                "<strong>Contacto con soporte técnico: </strong>Si detectas un cable de fibra óptica cortado, comunícate de inmediato con el soporte técnico al 3624716945 para recibir asistencia profesional. No intentes reparar o manipular el cable por tu cuenta, ya que esto podría empeorar la situación o causar daños adicionales.",
-                                "<strong>Evita pulsar el botón RESET: </strong>Es importante evitar pulsar el botón RESET del equipo bajo ninguna circunstancia, ya que esto podría interrumpir el servicio y requerir costosas reparaciones adicionales.",
+                                "<strong>Contacto con soporte técnico: </strong>Si detectás un cable de fibra óptica cortado, comunicate de inmediato con el soporte técnico al <strong>3624716945</strong> para recibir asistencia profesional. No intentes reparar o manipular el cable por tu cuenta, ya que esto podría empeorar la situación o causar daños adicionales.",
+                                "<strong>Evita pulsar el botón RESET: </strong>Es importante evitar pulsar el botón <strong>RESET</strong> del equipo bajo ninguna circunstancia, ya que esto podría interrumpir el servicio y requerir costosas reparaciones adicionales.",
                                 "<strong>Manipulación de elementos instalados: </strong>No manipules ningún elemento instalado por la empresa, como moverlos, doblarlos o reemplazar la fuente de alimentación, ya que esto puede afectar el funcionamiento adecuado de los dispositivos y causar problemas de conexión.",
-                                "<strong>Precauciones durante tormentas eléctricas: </strong>En caso de tormenta eléctrica, es recomendable desconectar el equipo (módem WIFI) para evitar posibles daños que podrían resultar en costos adicionales de reparación. Esta precaución puede ayudar a proteger los dispositivos de los efectos adversos de las fluctuaciones eléctricas durante eventos climáticos adversos"
+                                "<strong>Precauciones durante tormentas eléctricas: </strong>En caso de tormenta eléctrica, es recomendable desconectar el equipo (módem WIFI) para evitar posibles daños que podrían resultar en costos adicionales de reparación. Esta precaución puede ayudar a proteger los dispositivos de los efectos adversos de las fluctuaciones eléctricas durante eventos climáticos adversos."
                             ]
                         }
                     ]

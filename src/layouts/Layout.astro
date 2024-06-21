@@ -27,7 +27,7 @@ const { title, desciption } = Astro.props;
 		<title>{title}</title>
 		<meta name="description" content={desciption} />
 	</head>
-	<body class="font-serif h-[100%]">
+	<body class="h-[100%]">
 		<Header/>
 		<slot />
 		<InfoIcons/>
@@ -60,10 +60,9 @@ const { title, desciption } = Astro.props;
 }
 
 html {
+		font-family: 'DM Sans Variable', sans-serif;
         height: auto;
-		/*background-image: linear-gradient(180deg, #335472 0%, #335472 0.01%, #1177F0 50%, #011528 100%);*/
 		background-image: linear-gradient(90deg, #02498E 0%, #011528 100%);
-
     }
 
     body {

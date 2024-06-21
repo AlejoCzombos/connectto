@@ -65,7 +65,16 @@
         }
     ],
     "contact": {
-        "phone": "0800-123-4567",
-        "email": "ventas@conneccto.com"
+        "phones":[
+            "3624716945",
+            "3624128730",
+            "3624219385"
+        ],
+        "email": "info@conneccto.com",
+        "WhatsApp": "3624716945"
+    },
+    "links": {
+        "facebook": "https://www.facebook.com/connectto.ar",
+        "instagram": "https://www.instagram.com/connectto.ar"
     }
 }

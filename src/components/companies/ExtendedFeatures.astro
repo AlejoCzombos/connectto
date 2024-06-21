@@ -5,11 +5,11 @@ import json from "../../data/companies.json"
 const { "extended-features": features } = json
 ---
 
-<Section class="flex flex-wrap justify-center gap-x-10 gap-y-16">
+<Section class="flex flex-wrap justify-center gap-x-0 lg:gap-x-10 gap-y-16">
     
     {
         features.map(({icon, title, features}) => (
-            <div class="flex flex-col w-full items-start max-w-[45%] bg-[#02498E] rounded-[2.5rem] p-12 gap-5 relative">
+            <div class="flex flex-col w-full items-start lg:max-w-[45%] bg-[#02498E] rounded-[2.5rem] p-12 gap-5 relative">
                 <h3 class="text-right">{title}</h3>
                 <img class="size-16 absolute -top-8 left-8" src={icon} alt={`Icono de ${title}`}>
                 <footer class="text-balance flex flex-col justify-between text-white">

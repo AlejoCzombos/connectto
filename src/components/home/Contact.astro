@@ -10,12 +10,13 @@ const {title, subtitle, button} = json.contact
         <h2 class="text-[39px] lg:text-start text-center">{title}</h2>
         <p>{subtitle}</p>
     </header>
-    <form action="" class="flex flex-col w-full max-w-xl gap-2 text-white">
+    <form action="https://formsubmit.co/indo@conneccto.com" method="POST" class="flex flex-col w-full max-w-xl gap-2 text-white">
         <div class="grid grid-cols-1 grid-rows-3 lg:grid-rows-1 lg:grid-cols-3 gap-2">
-            <input type="text" placeholder="Nombre" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
-            <input type="text" placeholder="Apellido" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
-            <input type="email" placeholder="Email" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
+            <input name="nombre" type="text" placeholder="Nombre" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
+            <input name="apellido" type="text" placeholder="Apellido" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
+            <input name="email" type="email" placeholder="Email" class="bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" required>
         </div>
+        <input type="hidden" name="_template" value="basic">
         <textarea class="text-bold min-h-20 max-h-52 bg-transparent border border-[#FF8300] rounded-xl py-3 px-6 w-full" placeholder="Tu consulta" required></textarea>
         <button class="bg-[#1278F1] w-full lg:w-44 py-2 rounded-lg hover:scale-110 transition-transform duration-300 ease-in-out">{button.text}</button>
     </form>

@@ -7,7 +7,7 @@ import NavigationItem from "./UI/NavigationItem.astro";
 const {buttons, navigation} = json
 ---
 
-<header class="fixed top-0 left-0 shadow-lg w-full z-50 bg-slate-700 bg-opacity-20 backdrop-blur-lg drop-shadow-xl p-9">
+<nav class="fixed top-0 left-0 shadow-lg w-full z-50 bg-slate-700 bg-opacity-20 backdrop-blur-lg drop-shadow-xl p-9">
     <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto">
         <a href="/">
             <img src="/logo.png" alt="Logo Connectto" class="h-14 max-h-14">
@@ -16,7 +16,7 @@ const {buttons, navigation} = json
         <div class="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
             <div class="hidden lg:flex justify-center items-center gap-3 w-[300px]">
                 {buttons.map((button, index) => (
-                    <PrimaryButton text={button.text} href={button.link} key={index}/>
+                    <PrimaryButton target='_blank' text={button.text} href={button.link} key={index}/>
                 ))}
             </div>
             <a class="inline-flex items-center p-2 size-16 justify-center text-sm text-gray-100 rounded-lg lg:hidden hover:bg-secondary-600"  id="menu-button" data-collapse-toggle="navbar-sticky" data-nav-toggle="#navbar-sticky" href="#" aria-controls="navbar-sticky" aria-expanded="false">
@@ -28,17 +28,7 @@ const {buttons, navigation} = json
         </div>
 
         <div id="menu-open" class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 navbar"  id="navbar-sticky">
-            <ul class="flex flex-col justify-center gap-4 lg:gap-7 p-4 lg:p-0 mt-4 rtl:space-x-reverse lg:flex-row text-center">
-
-            {
-                navigation.map((item) => (
-                    <li>
-                        <NavigationItem class={`font-semibold text-white text-2xl lg:text-base`} href={item.href} text={item.text} />
-                    </li>
-                ))
-            }
-            
-            </ul>
+            <Navigation />
             <div class="flex lg:hidden justify-center items-center gap-3 w-[350px] mx-auto">
                 {buttons.map((button) => (
                     <PrimaryButton class="text-2xl lg:text-base" text={button.text} href={button.link}/>
@@ -46,7 +36,7 @@ const {buttons, navigation} = json
             </div>
         </div>
     </div>
-</header>
+</nav>
 
 <script>
   const button = document.querySelector('#menu-button') as Element;

@@ -3,15 +3,27 @@ import NavigationItem from "./UI/NavigationItem.astro";
 
 import json from "../data/header.json"
 const {navigation} = json
-
-const url = new URL(Astro.request.url);
-const currentPath = url.pathname;
 ---
 
-<div class="space-x-6 hidden lg:block">
+<ul class="flex flex-col justify-center gap-4 lg:gap-7 p-4 lg:p-0 mt-4 rtl:space-x-reverse lg:flex-row text-center">
     {
         navigation.map((item) => (
-            <NavigationItem class={`font-semibold ${currentPath === item.href ? "text-secondary-600" : "text-white"}`} href={item.href} text={item.text} />
+            <NavigationItem class={`font-semibold text-2xl lg:text-base`} href={item.href} text={item.text} />
         ))
     }
 </div>
+
+<script>
+const currentPath = window.location.pathname;
+
+const links = document.querySelectorAll('nav a');
+
+links.forEach(link => {
+    console.log(link.getAttribute('href'))
+  if (link.getAttribute('href') === currentPath) {
+    link.classList.add('text-secondary-600');
+  } else {
+    link.classList.remove('text-secondary-600');
+  }
+});
+</script>
