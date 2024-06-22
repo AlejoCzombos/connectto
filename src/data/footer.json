@@ -46,19 +46,19 @@
             "name": "Ayuda",
             "links": [
                 {
-                    "href": "/",
+                    "href": "/preguntas-frecuentes",
                     "text": "Preguntas frecuentes"
                 },
                 {
-                    "href": "/",
+                    "href": "/preguntas-frecuentes",
                     "text": "Medios de pago"
                 },
                 {
-                    "href": "/",
+                    "href": "/preguntas-frecuentes",
                     "text": "Instalación"
                 },
                 {
-                    "href": "/",
+                    "href": "/preguntas-frecuentes",
                     "text": "Cobertura"
                 }
             ]

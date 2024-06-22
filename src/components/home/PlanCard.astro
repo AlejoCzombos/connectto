@@ -1,4 +1,6 @@
 ---
+import PrimaryButton from "../UI/PrimaryButton.astro";
+
 const {megas, features, dowload } = Astro.props;
 ---
 
@@ -15,7 +17,7 @@ const {megas, features, dowload } = Astro.props;
             ))}
         </ul>
         <div class="flex justify-center items-center p-6">
-            <slot/>
+            <PrimaryButton target='_blank' href="mailto:info@conneccto.com" text="Contratá"></PrimaryButton>
         </div>
     </footer>
 </article>
