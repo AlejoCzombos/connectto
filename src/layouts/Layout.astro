@@ -38,32 +38,32 @@ const { title, desciption } = Astro.props;
 <style is:global>
 @tailwind base;
 
-@layer base{
-	h1, h2 {
-		@apply text-4xl xl:text-6xl tracking-tighter
+	@layer base{
+		h1, h2 {
+			@apply text-4xl xl:text-6xl tracking-tighter
+		}
+		h3 {
+			@apply text-2xl xl:text-3xl tracking-tighter
+		}
+		h1, h2, h3, h4, h5, h6 {
+			@apply text-white font-bold
+		}
+		p {
+			@apply text-xl xl:text-2xl text-white
+		}
+		span {
+			@apply font-bold
+		}
+		a{
+			@apply text-white
+		}
 	}
-	h3 {
-		@apply text-2xl xl:text-3xl tracking-tighter
-	}
-	h1, h2, h3, h4, h5, h6 {
-		@apply text-white font-bold
-	}
-	p {
-		@apply text-xl xl:text-2xl text-white
-	}
-	span {
-		@apply font-bold
-	}
-	a{
-		@apply text-white
-	}
-}
 
-html {
-		font-family: 'DM Sans Variable', sans-serif;
-        height: auto;
-		background-image: linear-gradient(90deg, #02498E 0%, #011528 100%);
-    }
+	html {
+			font-family: 'DM Sans Variable', sans-serif;
+			height: auto;
+			background-image: linear-gradient(90deg, #02498E 0%, #011528 100%);
+		}
 
     body {
         height: auto;

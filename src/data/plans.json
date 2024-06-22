@@ -2,7 +2,7 @@
     "header": {
         "title": "Compartí y disfrutá",
         "subtitle": "Estos son nuestros planes",
-        "image": "/images/header-planes.png"
+        "image": "/images/header-planes.webp"
     },
     "residential-plans": {
         "title": "Servicio residencial",
@@ -70,6 +70,7 @@
     "gamer-plan": {
         "title": "Plan<br>GAMER",
         "subtitle": "Experimentá el poder del juego sin interrupciones con nuestro servicio. Velocidad, baja latencia y la estabilidad que necesitás para ganar. ¡No dejes que el lag te detenga!",
+        "image": "/images/plan-gamer.webp",
         "upload_megas": "300",
         "download_megas": "100",
         "features": [

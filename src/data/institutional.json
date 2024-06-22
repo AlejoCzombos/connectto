@@ -2,17 +2,17 @@
     "header": {
         "title": "Nuestra razón de ser",
         "subtitle": "Acompañando a tu crecimiento",
-        "image": "/images/header-institucional.png"
+        "image": "/images/header-institucional.webp"
     },
     "mision": {
         "title": "Misión",
         "content": "Nuestra misión es proporcionar servicios de internet de la más alta calidad, respaldados por un equipo apasionado y comprometido. Valoramos la satisfacción de nuestros clientes y nos esforzamos por superar sus expectativas a través de una atención rápida y personalizada. Estamos dedicados a fomentar un ambiente en el que cada empleado se sienta valorado y motivado, ya que creemos que su valor personal es esencial para nuestro éxito.",
-        "image": "/images/mision.png"
+        "image": "/images/mision.webp"
     },
     "vision": {
         "title": "Visión",
         "content": "Nuestra visión es ser líderes en la industria de servicios de internet, expandiendo constantemente nuestra presencia y conectividad. Buscamos ser reconocidos como una marca sinónimo de innovación tecnológica y excelencia en el servicio al cliente. A medida que crecemos, mantenemos nuestro compromiso con la calidad y la responsabilidad en la resolución de problemas, manteniendo siempre nuestro enfoque en el bienestar de nuestros clientes y empleados. Operamos con transparencia y honestidad en todas nuestras interacciones, manteniendo la confianza de nuestros clientes, empleados y socios.",
-        "image": "/images/vision.png"
+        "image": "/images/vision.webp"
     },
     "values": {
         "title": "Valores",

@@ -8,7 +8,7 @@ const {header: {image, subtitle, title} } = json
 ---
 
 <Layout title="Connectto" desciption='Internet de fibra óptica'>
-    <main class="mt-32">
+    <main class="mt-32 relative">
         <header class="relative h-[30rem] flex flex-col justify-center items-start gap-4">
             <div class="text-center lg:text-start p-0 md:pl-60 lg:pl-80 ">
                 <h1>{title}</h1>
@@ -18,11 +18,24 @@ const {header: {image, subtitle, title} } = json
         </header>
         <Features />
         <ExtendedFeatures />
+        <video autoplay muted loop id="myVideo">
+            <source src="/images/fondo-empresas.mp4" type="video/mp4">
+        </video>
     </main>
 </Layout>
 
 <style>
     img {
         background: linear-gradient(89.62deg, #252729 5.34%, rgba(37, 39, 41, 0.505) 45.5%, rgba(37, 39, 41, 0) 86.47%);
+    }
+    video {
+        position: absolute;
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        right: 0;
+        bottom: 0;
+        z-index: -100;
+        opacity: 0.2;
     }
 </style>

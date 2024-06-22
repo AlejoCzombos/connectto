@@ -4,7 +4,7 @@ import SecondaryButton from "../UI/SecondaryButton.astro";
 import PrimaryButton from "../UI/PrimaryButton.astro";
 
 import json from "../../data/home.json"
-const {subtitle, title} = json.hero
+const {subtitle, title, image} = json.hero
 ---
 
 <Section class="flex flex-col xl:flex-row gap-4 xl:gap-8">
@@ -19,5 +19,5 @@ const {subtitle, title} = json.hero
             <SecondaryButton href="/planes" text="Ver planes"/>
         </footer>
     </div>
-    <img class="rounded-3xl w-full max-w-3xl m-auto xl:w-[50%] max-h-96 object-cover object-top" src="/images/imagen-hero.png" alt="Imagen hero">
+    <img class="rounded-3xl w-full max-w-3xl m-auto xl:w-[50%] max-h-96 object-cover object-top" src={image} alt="Imagen hero">
 </Section>

@@ -1,7 +1,8 @@
 {
     "hero": {
         "title": "Conectamos tu mundo",
-        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo."
+        "subtitle": "En <span>Connectto</span> trabajamos para que puedas disfrutar de la mejor conectividad usando tus aplicaciones favoritas. Conectamos tu mundo.",
+        "image": "/images/imagen-hero.webp"
     },
     "plans": {
         "title": "Planes",
@@ -45,7 +46,7 @@
     "gamer-plan": {
         "title": "Plan<br>GAMER",
         "subtitle": "Experimentá el poder del juego sin interrupciones con nuestro servicio. Velocidad, baja latencia y la estabilidad que necesitás para ganar. ¡No dejes que el lag te detenga!",
-        "image": "/images/plan-gamer-home.png",
+        "image": "/images/plan-gamer-home.webp",
         "features": [
             "300 MEGAS",
             "SIN IP PÚBLICA",
