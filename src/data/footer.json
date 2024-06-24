@@ -1,19 +1,22 @@
 {
     "columns": [
         {
-            "name": "Conneccto",
+            "name": "Connectto",
             "links": [
                 {
-                    "href": "/",
-                    "text": "Quienes somos"
+                    "href": "/institucional",
+                    "text": "Quienes somos",
+                    "blank": false
+                },
+                {
+                    "href": "mailto:info@conneccto.com",
+                    "text": "Trabaja con nosotros",
+                    "blank": true
                 },
                 {
                     "href": "/",
-                    "text": "Trabaja con nosotros"
-                },
-                {
-                    "href": "/",
-                    "text": "Contacto"
+                    "text": "Contacto",
+                    "blank": false
                 }
             ]
         },
@@ -21,24 +24,29 @@
             "name": "Planes",
             "links": [
                 {
-                    "href": "/",
-                    "text": "Empresas"
+                    "href": "/planes",
+                    "text": "Empresas",
+                    "blank": false
                 },
                 {
-                    "href": "/",
-                    "text": "Plan Gamer"
+                    "href": "/planes",
+                    "text": "Plan Gamer",
+                    "blank": false
                 },
                 {
-                    "href": "/",
-                    "text": "30 Megas"
+                    "href": "/planes",
+                    "text": "30 Megas",
+                    "blank": false
                 },
                 {
-                    "href": "/",
-                    "text": "60 Megas"
+                    "href": "/planes",
+                    "text": "60 Megas",
+                    "blank": false
                 },
                 {
-                    "href": "/",
-                    "text": "100 Megas"
+                    "href": "/planes",
+                    "text": "100 Megas",
+                    "blank": false
                 }
             ]
         },
@@ -47,19 +55,23 @@
             "links": [
                 {
                     "href": "/preguntas-frecuentes",
-                    "text": "Preguntas frecuentes"
+                    "text": "Preguntas frecuentes",
+                    "blank": false
                 },
                 {
                     "href": "/preguntas-frecuentes",
-                    "text": "Medios de pago"
+                    "text": "Medios de pago",
+                    "blank": false
                 },
                 {
                     "href": "/preguntas-frecuentes",
-                    "text": "Instalación"
+                    "text": "Instalación",
+                    "blank": false
                 },
                 {
-                    "href": "/preguntas-frecuentes",
-                    "text": "Cobertura"
+                    "href": "/",
+                    "text": "Cobertura",
+                    "blank": false
                 }
             ]
         }

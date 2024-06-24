@@ -11,25 +11,22 @@
             {
                 "megas": "30",
                 "features": [
-                    "Velocidad de 30 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Conectate a tus aplicaciones favoritas sin interrupciones.",
+                    "Mirá streaming en calidad HD."
                 ]
             },
             {
-                "megas": "50",
+                "megas": "60",
                 "features": [
-                    "Velocidad de 50 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Mirá streaming en calidad full HD, sin interrupciones.",
+                    "Disfrutá de una navegación rápida en varios dispositivos."
                 ]
             },
             {
                 "megas": "100",
                 "features": [
-                    "Velocidad de 100 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Velocidad de navegación en varios dispositivos a la vez.",
+                    "Contenidos en 4K y descargas sin límites."
                 ]
             }
         ]
@@ -42,27 +39,21 @@
                 "upload_megas": "100",
                 "download_megas": "50",
                 "features": [
-                    "Velocidad de 100 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Lo mejor para hacer crecer a tu negocio: Videoconferencias de calidad, acceso a aplicaciones en la nube, y más."
                 ]
             },
             {
                 "upload_megas": "200",
                 "download_megas": "80",
                 "features": [
-                    "Velocidad de 200 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Transferencia de archivos grandes, videoconferencias de alta calidad. Múltiples usuarios y dispositivos, y más."
                 ]
             },
             {
                 "upload_megas": "300",
                 "download_megas": "100",
                 "features": [
-                    "Velocidad de 300 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
+                    "Ideal para alta demanda de ancho de banda, múltiples videoconferencias simultáneas, almacenamiento en la nube, y mucho más."
                 ]
             }
         ]

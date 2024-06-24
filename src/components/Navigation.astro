@@ -19,7 +19,6 @@ const currentPath = window.location.pathname;
 const links = document.querySelectorAll('nav a');
 
 links.forEach(link => {
-    console.log(link.getAttribute('href'))
   if (link.getAttribute('href') === currentPath) {
     link.classList.add('text-secondary-600');
   } else {

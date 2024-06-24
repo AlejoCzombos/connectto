@@ -16,19 +16,19 @@
         },
         {
             "text": "Institucional",
-            "href": "/institucional"
+            "href": "/institucional/"
         },
         {
             "text": "Planes",
-            "href": "/planes"
+            "href": "/planes/"
         },
         {
             "text": "Empresas",
-            "href": "/empresas"
+            "href": "/empresas/"
         },
         {
             "text": "Ayuda",
-            "href": "/preguntas-frecuentes"
+            "href": "/preguntas-frecuentes/"
         }
     ]
 }
