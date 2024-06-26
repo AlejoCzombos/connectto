@@ -13,21 +13,33 @@
                 "features": [
                     "Conectate a tus aplicaciones favoritas sin interrupciones.",
                     "Mirá streaming en calidad HD."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 30 megas."
+                }
             },
             {
                 "megas": "60",
                 "features": [
                     "Mirá streaming en calidad full HD, sin interrupciones.",
                     "Disfrutá de una navegación rápida en varios dispositivos."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 60 megas."
+                }
             },
             {
                 "megas": "100",
                 "features": [
                     "Velocidad de navegación en varios dispositivos a la vez.",
                     "Contenidos en 4K y descargas sin límites."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 100 megas."
+                }
             }
         ]
     },
@@ -40,21 +52,33 @@
                 "download_megas": "50",
                 "features": [
                     "Lo mejor para hacer crecer a tu negocio: Videoconferencias de calidad, acceso a aplicaciones en la nube, y más."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 100 megas."
+                }
             },
             {
                 "upload_megas": "200",
                 "download_megas": "80",
                 "features": [
                     "Transferencia de archivos grandes, videoconferencias de alta calidad. Múltiples usuarios y dispositivos, y más."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 200 megas."
+                }
             },
             {
                 "upload_megas": "300",
                 "download_megas": "100",
                 "features": [
                     "Ideal para alta demanda de ancho de banda, múltiples videoconferencias simultáneas, almacenamiento en la nube, y mucho más."
-                ]
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 300 megas."
+                }
             }
         ]
     },
@@ -65,8 +89,12 @@
         "upload_megas": "300",
         "download_megas": "100",
         "features": [
-            "Sin IP pública",
+            "100 megas de subida",
             "Instalación de módem dual band"
-        ]
+        ],
+        "button": {
+            "text": "Contratá",
+            "message": "Hola, estoy interesado en contratar el plan gamer."
+        }
     }
 }

@@ -12,7 +12,7 @@
                     "questions": [
                         {
                             "question": "¿Cómo descargo mi factura?",
-                            "answer": "Podés descargar la factura haciendo clic en el siguiente enlace <a target='_blank' class='cursor-pointer text-secondary-600' href='google.com'>Click aquí</a>, debés iniciar sesión ingresando el DNI del titular del servicio como usuario y también como clave. Una vez logueado, debés seleccionar el comprobante que quieras descargar y luego hacer click en el botón 'Descargar'."
+                            "answer": "Podés descargar la factura haciendo clic en el siguiente enlace <a target='_blank' class='cursor-pointer text-secondary-600' href='https://www.bancoroela.com.ar:8081'>Click aquí</a>, debés iniciar sesión ingresando el DNI del titular del servicio como usuario y también como clave. Una vez logueado, debés seleccionar el comprobante que quieras descargar y luego hacer click en el botón 'Descargar'."
                         },
                         {
                             "question": "¿Cómo pago mi factura?",

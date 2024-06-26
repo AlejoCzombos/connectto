@@ -9,11 +9,6 @@
                     "blank": false
                 },
                 {
-                    "href": "mailto:info@conneccto.com",
-                    "text": "Trabaja con nosotros",
-                    "blank": true
-                },
-                {
                     "href": "/",
                     "text": "Contacto",
                     "blank": false

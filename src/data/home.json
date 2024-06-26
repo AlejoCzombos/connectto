@@ -10,26 +10,35 @@
             {
                 "megas": "30",
                 "features": [
-                    "Velocidad de 30 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
-                ]
+                    "Conectate a tus aplicaciones favoritas sin interrupciones.",
+                    "Mirá streaming en calidad HD."
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 30 megas."
+                }
             },
             {
-                "megas": "50",
+                "megas": "60",
                 "features": [
-                    "Velocidad de 50 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
-                ]
+                    "Mirá streaming en calidad full HD, sin interrupciones.",
+                    "Disfrutá de una navegación rápida en varios dispositivos."
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 60 megas."
+                }
             },
             {
                 "megas": "100",
                 "features": [
-                    "Velocidad de 100 megas",
-                    "Instalación gratis",
-                    "Wifi gratis"
-                ]
+                    "Velocidad de navegación en varios dispositivos a la vez.",
+                    "Contenidos en 4K y descargas sin límites."
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 100 megas."
+                }
             }
         ]
     },
@@ -39,7 +48,7 @@
             "title": "Consultá tu zona",
             "button": {
                 "text": "Quiero mas información",
-                "href": "mailto:info@conneccto.com"
+                "message": "Hola, quiero consultar la cobertura de los servicios."
             }
         }
     },
@@ -49,12 +58,12 @@
         "image": "/images/plan-gamer-home.webp",
         "features": [
             "300 MEGAS",
-            "SIN IP PÚBLICA",
+            "100 MEGAS DE SUBIDA",
             "MÓDEM DUAL BAND"
         ],
         "button": {
             "text": "Contratá",
-            "href": "/planes"
+            "message": "Hola, estoy interesado en contratar el plan gamer."
         }
     },
     "contact": {

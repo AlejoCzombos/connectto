@@ -2,6 +2,7 @@
 import PrimaryButton from "../UI/PrimaryButton.astro";
 
 import json from "../../data/home.json"
+import WhatsAppMessageEncoder from "../../utils/WhatsAppMessageEncoder";
 const {title, subtitle, image, features, button} = json["gamer-plan"]
 ---
 
@@ -9,7 +10,7 @@ const {title, subtitle, image, features, button} = json["gamer-plan"]
     <div class="text-start mx-auto max-w-6xl w-full flex flex-col items-start justify-center gap-5 relative px-10">
         <h2 class="text-6xl lg:text-8xl" set:html={title}></h2>
         <p class="lg:w-[70%]" set:html={subtitle}></p>
-        <PrimaryButton text={button.text} href={button.href} />
+        <PrimaryButton target='_blank' href={WhatsAppMessageEncoder(button.message)} text={button.text} />
         <span class="hidden xl:block absolute top-10 left-[25rem] border-l border-white pl-5">
             <ul class="space-y-4">
                 {

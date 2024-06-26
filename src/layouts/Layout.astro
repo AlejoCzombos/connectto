@@ -8,6 +8,7 @@ import '@fontsource/kanit/700.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import InfoIcons from '../components/InfoIcons.astro';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
 	title: string;
@@ -26,6 +27,7 @@ const { title, desciption } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="description" content={desciption} />
+		<ViewTransitions />
 	</head>
 	<body class="h-[100%]">
 		<Header/>

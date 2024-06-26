@@ -5,7 +5,13 @@ import json from "../../data/institutional.json"
 const {title, content, image} = json.mision
 ---
 
-<Section class="flex flex-col xl:flex-row gap-4 xl:gap-8">
+<script>
+import Observer from 'tailwindcss-intersect';
+
+Observer.start();
+</script>
+
+<Section class="flex flex-col xl:flex-row gap-4 xl:gap-8 intersect:animate-fade-left intersect-once">
     <div class="flex flex-col justify-center order-last xl:order-first xl:w-[50%] gap-4">
         <header class="space-y-3 xl:space-y-5 text-white">
             <h2 class="text-secondary-600">{title}</h2>

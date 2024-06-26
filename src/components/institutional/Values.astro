@@ -5,12 +5,18 @@ import json from "../../data/institutional.json"
 const {title, content} = json.values
 ---
 
+<script>
+import Observer from 'tailwindcss-intersect';
+
+Observer.start();
+</script>
+
 <Section>
     <h2 class="text-secondary-600 lg:text-start text-center">{title}</h2>
     <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 md:grid-rows-2 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10 pt-6 lg:pt-14">
     {
         content.map(({title, content, icon}) => (
-            <article class="flex flex-col items-center gap-5 lg:gap-10">
+            <article class="flex flex-col items-center gap-5 lg:gap-10 intersect:animate-fade-up animate-duration-1000 animate-ease-in-out">
                 <header>
                     <img src={icon} alt="icono del valor">
                 </header>

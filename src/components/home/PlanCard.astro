@@ -4,7 +4,7 @@ import PrimaryButton from "../UI/PrimaryButton.astro";
 const {megas, features, dowload } = Astro.props;
 ---
 
-<article id="card" class="rounded-xl m-auto relative w-full min-w-[300px] max-w-[400px] shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300">
+<article id="card" class="rounded-xl m-auto relative w-full min-w-[300px] max-w-[400px] shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 transition-all">
     <header id="card-header" class="font-kanit flex flex-col justify-center items-center size-64 rounded-lg absolute -top-5 left-1/2 transform -translate-x-1/2">
         <h3 class="text-[70px] lg:text-[100px] font-normal">{megas}</h3>
         <p class="text-5xl lg:text-6xl">megas</p>
@@ -17,7 +17,7 @@ const {megas, features, dowload } = Astro.props;
             ))}
         </ul>
         <div class="flex justify-center items-center p-6">
-            <PrimaryButton target='_blank' href="mailto:info@conneccto.com" text="Contratá"></PrimaryButton>
+            <slot/>
         </div>
     </footer>
 </article>

@@ -16,6 +16,7 @@ const {header: {image, subtitle, title}} = json
                 <p>{subtitle}</p>
             </div>
             <img class="absolute h-full w-full object-cover top-0 left-0 -z-10" src={image} alt="Header seccion planes">
+            <div id="grad"></div>
         </header>
         <ResidentialsPlans />
         <CorporatePlans />
@@ -24,7 +25,14 @@ const {header: {image, subtitle, title}} = json
 </Layout>
 
 <style>
-    img {
-        background: linear-gradient(89.62deg, #252729 5.34%, rgba(37, 39, 41, 0.505) 45.5%, rgba(37, 39, 41, 0) 86.47%);
-    }
+    #grad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background: linear-gradient(89.62deg, #25272998 14.67%, rgba(37, 39, 41, 0.505) 56.45%, rgba(37, 39, 41, 0) 86.47%);
+    z-index: -1;
+  }
 </style>

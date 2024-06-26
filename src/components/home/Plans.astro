@@ -4,6 +4,8 @@ import Section from "../UI/Section.astro";
 import PrimaryButton from "../UI/PrimaryButton.astro";
 import SecondaryButton from "../UI/SecondaryButton.astro";
 
+import WhatsAppMessageEncoder from "../../utils/WhatsAppMessageEncoder";
+
 import json from "../../data/home.json"
 const {title, plans} = json.plans
 ---
@@ -12,8 +14,10 @@ const {title, plans} = json.plans
   <h2 class="text-[33px] text-center mb-4">{title}</h2>
   <div class="grid grid-cols-1 grid-rows-3 xl:grid-rows-1 md:grid-rows-2 md:grid-cols-2 xl:grid-cols-3 gap-10 pt-10">
     {
-      plans.map((plan, index) => (
-        <PlanCard megas={plan.megas} features={plan.features}/>
+      plans.map(({megas, features, button}) => (
+        <PlanCard megas={megas} features={features}>
+          <PrimaryButton target='_blank' href={WhatsAppMessageEncoder(button.message)} text={button.text} />
+        </PlanCard>
       ))
     }
   </div>
