@@ -30,17 +30,17 @@
                 },
                 {
                     "href": "/planes",
-                    "text": "30 Megas",
-                    "blank": false
-                },
-                {
-                    "href": "/planes",
                     "text": "60 Megas",
                     "blank": false
                 },
                 {
                     "href": "/planes",
                     "text": "100 Megas",
+                    "blank": false
+                },
+                {
+                    "href": "/planes",
+                    "text": "300 Megas",
                     "blank": false
                 }
             ]

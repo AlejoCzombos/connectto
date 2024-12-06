@@ -5,6 +5,7 @@ import ResidentialsPlans from '../../components/plans/ResidentialsPlans.astro';
 import Layout from '../../layouts/Layout.astro';
 
 import json from '../../data/plans.json';
+import AdvertisingBanner from '../../components/home/AdvertisingBanner.astro';
 const {header: {image, subtitle, title}} = json
 ---
 
@@ -20,7 +21,8 @@ const {header: {image, subtitle, title}} = json
         </header>
         <ResidentialsPlans />
         <CorporatePlans />
-        <GamerPlan />
+        <!-- <GamerPlan /> -->
+        <AdvertisingBanner />
     </main>
 </Layout>
 

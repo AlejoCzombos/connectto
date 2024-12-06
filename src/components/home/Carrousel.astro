@@ -7,27 +7,27 @@ const images = await Astro.glob('/public/images/carousel/*')
 
 <script>
 import Swiper from 'swiper';
+import 'swiper/bundle';
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation],
+  modules: [Navigation, Autoplay],
   loop: true,
-  spaceBetween: 0,
   slidesPerView: 1,
-  autoplay: true,
-  speed: 700,
-  // breakpoints: {
-  //   768: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 0,
-  //   },
-  //   1024: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 0,
-  //   },
-  // },
+  spaceBetween: 0,
+  speed: 900,
+  allowTouchMove: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1024: {
+      allowTouchMove: false,
+    },
+  },
   navigation: {
     prevEl: '.swiper-button-prev',
     nextEl: '.swiper-button-next',
@@ -36,7 +36,7 @@ const swiper = new Swiper('.swiper', {
 </script>
 
 
-<section class="swiper w-full xl:h-auto mt-32">
+<section class="swiper w-full xl:h-auto mt-36">
   <div class="swiper-wrapper" id="my-slider">
     {images.map(image => (
     <div class="swiper-slide h-auto rounded overflow-hidden">
@@ -44,10 +44,10 @@ const swiper = new Swiper('.swiper', {
     </div>
     ))}
   </div>
-  <div class="swiper-button-prev rounded flex justify-center items-center ml-8 xl:ml-16 transform rotate-180">
+  <div class="swiper-button-prev absolute top-[50%] transform rotate-180 z-20 ml-5">
     <SwiperIcon />
   </div>
-  <div class="swiper-button-next rounded flex justify-center items-center mr-8 xl:mr-16 ">
+  <div class="swiper-button-next absolute right-0 top-[50%] z-20 mr-5">
     <SwiperIcon />
   </div>
 </section>
@@ -56,5 +56,8 @@ const swiper = new Swiper('.swiper', {
   .swiper-button-next::after,
   .swiper-button-prev::after {
     content: '';
+  }
+  .swiper-slide {
+    aspect-ratio: 16/6;
   }
 </style>

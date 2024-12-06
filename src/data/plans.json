@@ -9,21 +9,10 @@
         "subtitle": "Contratá la mejor velocidad de internet para tu hogar",
         "plans": [
             {
-                "megas": "30",
+                "megas": "60",
                 "features": [
                     "Conectate a tus aplicaciones favoritas sin interrupciones.",
                     "Mirá streaming en calidad HD."
-                ],
-                "button": {
-                    "text": "Contratá",
-                    "message": "Hola, estoy interesado en contratar el plan de 30 megas."
-                }
-            },
-            {
-                "megas": "60",
-                "features": [
-                    "Mirá streaming en calidad full HD, sin interrupciones.",
-                    "Disfrutá de una navegación rápida en varios dispositivos."
                 ],
                 "button": {
                     "text": "Contratá",
@@ -33,12 +22,23 @@
             {
                 "megas": "100",
                 "features": [
+                    "Mirá streaming en calidad full HD, sin interrupciones.",
+                    "Disfrutá de una navegación rápida en varios dispositivos."
+                ],
+                "button": {
+                    "text": "Contratá",
+                    "message": "Hola, estoy interesado en contratar el plan de 100 megas."
+                }
+            },
+            {
+                "megas": "300",
+                "features": [
                     "Velocidad de navegación en varios dispositivos a la vez.",
                     "Contenidos en 4K y descargas sin límites."
                 ],
                 "button": {
                     "text": "Contratá",
-                    "message": "Hola, estoy interesado en contratar el plan de 100 megas."
+                    "message": "Hola, estoy interesado en contratar el plan de 300 megas."
                 }
             }
         ]
