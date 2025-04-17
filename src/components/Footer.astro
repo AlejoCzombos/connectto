@@ -52,16 +52,21 @@ const { links, contact, columns } = FooterInfo
             }
         </div>
     </div>
-    <div>
-        <h4 class="text-center lg:text-start">SEGUINOS</h4>
-        <div class="flex justify-center lg:justify-start gap-3">
-            <a target='_blank' href={links.instagram}>
-                <InstagramIcon />
-            </a>
-            <a target='_blank' href={links.facebook}>
-                <FacebookIcon />
-            </a>
+    <div class="flex flex-col justify-between items-center lg:items-start">
+        <div>
+            <h4 class="text-center lg:text-start">SEGUINOS</h4>
+            <div class="flex justify-center lg:justify-start gap-3">
+                <a target='_blank' href={links.instagram}>
+                    <InstagramIcon />
+                </a>
+                <a target='_blank' href={links.facebook}>
+                    <FacebookIcon />
+                </a>
+            </div>
         </div>
+        <a target='_blank' href="https://www.linkedin.com/company/lav-ux/">
+            <img class="h-12 object-contain transition-transform duration-200 hover:scale-110 ease-in-out" src="/LAV_logo.png" alt="logo LAV">
+        </a>
     <div>
 
     </div>

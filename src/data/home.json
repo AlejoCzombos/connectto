@@ -72,15 +72,15 @@
         "image": "/images/banner.webp",
         "features": [
             {
-                "icon": "/icons/banner/conexion_estable.svg",
+                "icon": "/images/icons/banner/conexion_estable.svg",
                 "description": "Conexión estable"
             },
             {
-                "icon": "/icons/banner/descargas_sinlimites.svg",
+                "icon": "/images/icons/banner/descargas_sinlimites.svg",
                 "description": "Descargas sin límites"
             },
             {
-                "icon": "/icons/banner/varios_dispositivos.svg",
+                "icon": "/images/icons/banner/varios_dispositivos.svg",
                 "description": "Varios dispositivos"
             }
         ],

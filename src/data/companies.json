@@ -6,37 +6,37 @@
     },
     "features": [
         {
-            "icon": "/icons/institucional/1.svg",
+            "icon": "/images/icons/institucional/1.svg",
             "description": "Servicio simétrico dedicado."
         },
         {
-            "icon": "/icons/institucional/2.svg",
+            "icon": "/images/icons/institucional/2.svg",
             "description": "Atención telefónica exclusiva para empresas."
         },
         {
-            "icon": "/icons/institucional/3.svg",
+            "icon": "/images/icons/institucional/3.svg",
             "description": "Atención telefónica y velocidad de resolución."
         },
         {
-            "icon": "/icons/institucional/4.svg",
+            "icon": "/images/icons/institucional/4.svg",
             "description": "Herramientas de ultima generación."
         },
         {
-            "icon": "/icons/institucional/5.svg",
+            "icon": "/images/icons/institucional/5.svg",
             "description": "Atención VIP con personal capacitado."
         },
         {
-            "icon": "/icons/institucional/6.svg",
+            "icon": "/images/icons/institucional/6.svg",
             "description": "Conectividad backup."
         },
         {
-            "icon": "/icons/institucional/7.svg",
+            "icon": "/images/icons/institucional/7.svg",
             "description": "Todos los medios de pago."
         }
     ],
     "extended-features": [
         {
-            "icon": "/icons/institucional/1.svg",
+            "icon": "/images/icons/institucional/1.svg",
             "title": "Personalizado",
             "features": [
                 "Servicio Simétrico Dedicado de 10mb a 200mb. Cotizaciones a medida por servicios de mayor capacidad.",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "icon": "/icons/institucional/2.svg",
+            "icon": "/images/icons/institucional/2.svg",
             "title": "Atención exclusiva",
             "features": [
                 "Atención telefónica corporativa las 24 horas, de lunes a lunes, con resolución de conflictos en un plazo no mayor a 24 horas.",
@@ -54,14 +54,14 @@
             ]
         },
         {
-            "icon": "/icons/institucional/5.svg",
+            "icon": "/images/icons/institucional/5.svg",
             "title": "Soporte VIP",
             "features": [
                 "Número de teléfono particular para clientes corporativos, por lo cual no tendrá demora en la respuesta frente a una necesidad ó un soporte"
             ]
         },
         {
-            "icon": "/icons/institucional/7.svg",
+            "icon": "/images/icons/institucional/7.svg",
             "title": "Comodidad de pago",
             "features": [
                 "Cargo de instalación por única vez.",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "icon": "/icons/institucional/4.svg",
+            "icon": "/images/icons/institucional/4.svg",
             "title": "Calidad tecnológica",
             "features": [
                 "Bloque IP Público /29 o /30 (o consultar otros planes).",
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "icon": "/icons/institucional/6.svg",
+            "icon": "/images/icons/institucional/6.svg",
             "title": "Adicionales",
             "features": [
                 "Servicio opcional de conectividad back-up por aire en períodos de reparación de la fibra óptica."

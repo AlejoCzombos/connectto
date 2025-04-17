@@ -2,11 +2,11 @@
     "buttons": [
         {
             "text": "Acceder",
-            "link": "http://cliente.connectto.com.ar/bills/login.php"
+            "link": "https://cliente.connectto.com.ar/Autogestion/"
         },
         {
             "text": "Pago online",
-            "link": "https://www.bancoroela.com.ar:8081"
+            "link": "https://siropagos.bancoroela.com.ar/"
         }
     ],
     "navigation": [
